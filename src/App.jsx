@@ -1873,94 +1873,76 @@ function EditWordModal({lang,word,onClose,onSaved}){
     <textarea className="mi" placeholder="Mnemonic" value={f.mnemonicTip} onChange={e=>setF({...f,mnemonicTip:e.target.value})}/>
   </Modal>;
 }
-
-function ImportModal({lang,set,onClose,onDone,showToast}){
-  const [result,setResult]=useState(null);
- const doImport = async (text, isJson) => {
-  try {
-    let rows = [];
-
-    if (isJson) {
-      const arr = JSON.parse(text);
-
-      rows = arr.map(w => ({
-        wordSetId: set.id,
-        english: w.english || "",
-        turkish: w.turkish || "",
-        ydsExampleSentence: w.ydsExample || "",
-        ydsExampleTranslation: w.ydsTranslation || "",
-        mnemonicTip: w.mnemonic || "",
-        addedAt: Date.now()
-      }));
-    } else {
-      const lines = text.trim().split("\n");
-
-      const start =
-        lines[0].toLowerCase().startsWith("english") ? 1 : 0;
-
-      rows = lines.slice(start).map(l => {
-        const [en, tr, yds, ydsT, mn] =
-          l.split(",").map(c =>
-            c.trim().replace(/^"|"$/g, "")
-          );
-
-        return {
+function ImportModal({lang,set,onClose,onDone,showToast}) {
+  const [result,setResult] = useState(null);
+  const doImport = async (text, isJson) => {
+    try {
+      let rows = [];
+      if (isJson) {
+        const arr = JSON.parse(text);
+        rows = arr.map(w => ({
           wordSetId: set.id,
-          english: en || "",
-          turkish: tr || "",
-          ydsExampleSentence: yds || "",
-          ydsExampleTranslation: ydsT || "",
-          mnemonicTip: mn || "",
+          english: w.english || "",
+          turkish: w.turkish || "",
+          ydsExampleSentence: w.ydsExample || "",
+          ydsExampleTranslation: w.ydsTranslation || "",
+          mnemonicTip: w.mnemonic || "",
           addedAt: Date.now()
-        };
+        }));
+      } else {
+        const lines = text.trim().split("\n");
+        const start =
+          lines[0].toLowerCase().startsWith("english")
+            ? 1
+            : 0;
+        rows = lines.slice(start).map(l => {
+          const [en, tr, yds, ydsT, mn] =
+            l.split(",").map(c =>
+              c.trim().replace(/^"|"$/g, "")
+            );
+          return {
+            wordSetId: set.id,
+            english: en || "",
+            turkish: tr || "",
+            ydsExampleSentence: yds || "",
+            ydsExampleTranslation: ydsT || "",
+            mnemonicTip: mn || "",
+            addedAt: Date.now()
+          };
+        });
+      }
+      const validRows = rows.filter(
+        w => w.english && w.turkish
+      );
+      const { error } = await supabase
+        .from("words")
+        .insert(validRows);
+      if (error) throw error;
+      setResult({
+        added: validRows.length,
+        skipped: 0
       });
+      onDone();
+    } catch (e) {
+      showToast(
+        (lang === "en" ? "Error: " : "Hata: ")
+        + e.message
+      );
     }
-
-    const validRows = rows.filter(
-      w => w.english && w.turkish
-    );
-
-    const { error } = await supabase
-      .from("words")
-      .insert(validRows);
-
-    if (error) throw error;
-
-    setResult({
-      added: validRows.length,
-      skipped: 0
-    });
-
-    onDone();
-
-  } catch (e) {
-    showToast(
-      (lang === "en" ? "Error: " : "Hata: ") + e.message
-    );
-  }
-};
-  catch(e){showToast((lang==="en"?"Error: ":"Hata: ")+e.message);}
   };
-  const handleFile=e=>{
-    const file=e.target.files[0];if(!file)return;
-    const reader=new FileReader();
-    reader.onload=ev=>doImport(ev.target.result,file.name.endsWith(".json"));
+  const handleFile = (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = async (ev) => {
+      await doImport(
+        ev.target.result,
+        file.name.endsWith(".json")
+      );
+    };
     reader.readAsText(file);
   };
-  return(
-    <div className="modal-overlay" onClick={onClose}>
-      <div className="modal" onClick={e=>e.stopPropagation()}>
-        <div className="modal-title">{lang==="en"?"IMPORT":"İÇE AKTAR"} — {set.name}</div>
-        <div className="import-pre">{`[\n  {\n    "english": "ameliorate",\n    "turkish": "iyileştirmek",\n    "ydsExample": "...",\n    "ydsTranslation": "...",\n    "mnemonic": "..."\n  }\n]`}</div>
-        <div className="import-pre">english,turkish,ydsExample,ydsTranslation,mnemonic</div>
-        <label style={{display:"block"}}><div className="btn btn-gold" style={{textAlign:"center",cursor:"pointer",marginBottom:8}}>📁 {lang==="en"?"SELECT FILE (JSON / CSV)":"DOSYA SEÇ (JSON / CSV)"}</div><input type="file" accept=".json,.csv,.txt" onChange={handleFile} style={{display:"none"}}/></label>
-        {result&&<div style={{padding:"9px 12px",borderRadius:9,background:"rgba(76,175,80,.15)",border:"1px solid rgba(76,175,80,.3)",color:"#81c784",fontSize:13}}>✅ {result.added} {lang==="en"?"added":"eklendi"}{result.skipped>0?`, ${result.skipped} ${lang==="en"?"already existed":"zaten vardı"}`:""}</div>}
-        <button className="btn btn-outline" style={{marginTop:10}} onClick={onClose}>{lang==="en"?"Close":"Kapat"}</button>
-      </div>
-    </div>
-  );
 }
-
 function Modal({lang,title,children,onClose,onConfirm,confirmLabel}){
   const cl = confirmLabel || (lang==="en"?"Create":"Oluştur");
   return(
