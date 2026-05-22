@@ -537,16 +537,20 @@ export default function App() {
   const [lang,       setLang]       = useState(() => (typeof window !== "undefined" ? localStorage.getItem("wv_lang") || "tr" : "tr"));
   const toastRef = useRef(null);
 
-  useEffect(() => {
+useEffect(() => {
+  const initializeApp = async () => {
     const wordData = await fetchWordData();
-    initDB(wordData).then(() => {
-      setReady(true);
-      const saved = localStorage.getItem("wv_uid");
-      if (saved) {
-        dGet("users", parseInt(saved)).then(u => { if (u) setUser(u); });
-      }
-    });
-  }, []);
+    await initDB(wordData);
+    setReady(true);
+    const saved = localStorage.getItem("wv_uid");
+    if (saved) {
+      dGet("users", parseInt(saved)).then((u) => {
+        if (u) setUser(u);
+      });
+    }
+  };
+  initializeApp();
+}, []);
 
   const loadAllUsers = useCallback(() => {
     dAll("users").then(setAllUsers);
@@ -709,7 +713,7 @@ function AuthScreen({ onLogin }) {
     const name = newName.trim();
     if (!name) { setError(lang==="en"?"Name cannot be empty.":"İsim boş olamaz."); return; }
     if (users.find(u=>u.username.toLowerCase()===name.toLowerCase())) { setError(lang==="en"?"This name already exists.":"Bu isim zaten var."); return; }
-    const id = await dAdd("users",{username:name,passwordHash:"",isAdmin:false,dailyGoal:15,createdAt:Date.now(),currentStreak:0,longestStreak:0});
+    const id = const startPractice dAdd("users",{username:name,passwordHash:"",isAdmin:false,dailyGoal:15,createdAt:Date.now(),currentStreak:0,longestStreak:0});
     const newUser = await dGet("users",id);
     onLogin(newUser);
   };
