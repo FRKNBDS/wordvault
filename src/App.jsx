@@ -713,7 +713,15 @@ function AuthScreen({ onLogin }) {
     const name = newName.trim();
     if (!name) { setError(lang==="en"?"Name cannot be empty.":"İsim boş olamaz."); return; }
     if (users.find(u=>u.username.toLowerCase()===name.toLowerCase())) { setError(lang==="en"?"This name already exists.":"Bu isim zaten var."); return; }
-    const id = const startPractice dAdd("users",{username:name,passwordHash:"",isAdmin:false,dailyGoal:15,createdAt:Date.now(),currentStreak:0,longestStreak:0});
+    const id = await dAdd("users", {
+    username: name,
+    passwordHash: "",
+    isAdmin: false,
+    dailyGoal: 15,
+    createdAt: Date.now(),
+    currentStreak: 0,
+    longestStreak: 0
+  });
     const newUser = await dGet("users",id);
     onLogin(newUser);
   };
