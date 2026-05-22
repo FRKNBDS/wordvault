@@ -1,0 +1,1874 @@
+{
+  "VERB_SET_1": [
+    [
+      "live",
+      "yaşamak",
+      "Many indigenous tribes still live in harmony with nature in the remote areas of the Amazon.",
+      "Birçok yerli kabile, Amazon'un uzak bölgelerinde hala doğayla uyum içinde yaşamaktadır.",
+      "Canlı yayınlarda sağ üstte çıkan 'LIVE' ibaresi, o an yaşanan anı aktarır."
+    ],
+    [
+      "reside",
+      "ikamet etmek, yaşamak",
+      "The right to reside in the European Union is granted to individuals who meet specific legal criteria.",
+      "Avrupa Birliği'nde ikamet etme hakkı, belirli yasal kriterleri karşılayan bireylere tanınır.",
+      "Rezidans (Residence) - Zenginlerin 'ikamet ettiği', yaşadığı lüks binalar."
+    ],
+    [
+      "inhabit",
+      "bir yerde yaşamak, yerleşmek",
+      "Rare species of birds inhabit the dense forests of Madagascar, making the island a biodiversity hotspot.",
+      "Nadir kuş türleri Madagaskar'ın yoğun ormanlarında yaşar ve bu da adayı biyolojik çeşitlilik merkezi haline getirir.",
+      "Habitat - Canlıların doğal olarak 'yaşadığı', yerleştiği yaşam alanı."
+    ],
+    [
+      "occupy",
+      "işgal etmek, yer kaplamak, meşgul etmek",
+      "The new administrative offices will occupy the top three floors of the skyscraper.",
+      "Yeni idari ofisler, gökdelenin en üst üç katını kaplayacak (işgal edecek).",
+      "Okul (Occu-py) - Okul sıraları sınıfta çok büyük bir 'yer kaplar'."
+    ],
+    [
+      "populate",
+      "yerleşmek, nüfus oluşturmak",
+      "Early humans began to populate different continents due to shifting climatic conditions.",
+      "İlk insanlar, değişen iklim koşulları nedeniyle farklı kıtalara yerleşmeye başladılar.",
+      "Population (Nüfus) - Bir bölgeye yerleşerek oranın 'nüfusunu oluşturmak'."
+    ],
+    [
+      "settle",
+      "yerleşmek, çözmek/karara bağlamak",
+      "After years of traveling, the family decided to settle in a quiet coastal town.",
+      "Yıllarca seyahat ettikten sonra aile, sakin bir kıyı kasabasına yerleşmeye karar verdi.",
+      "Set (Kurmak) - Düzenini kurup bir yere kalıcı olarak 'yerleşmek'."
+    ],
+    [
+      "undergo",
+      "başından geçmek, maruz kalmak, ameliyat/değişim geçirmek",
+      "The historical building will undergo extensive restoration to preserve its original architecture.",
+      "Tarihi bina, orijinal mimarisini korumak için kapsamlı bir restorasyondan geçecek.",
+      "Under (Altına) + Go (Gitmek) - Bir sürecin altına girmek, o süreci 'deneyimlemek/geçirmek'."
+    ],
+    [
+      "experience",
+      "deneyimlemek, tecrübe etmek, başından geçmek",
+      "Developing nations often experience rapid economic fluctuations during financial crises.",
+      "Gelişmekte olan ülkeler, finansal krizler sırasında genellikle hızlı ekonomik dalgalanmalar yaşarlar.",
+      "Eksper (Exper-ience) - Arabanın başından ne geçtiğini bilen 'deneyimli/tecrübeli' kişi."
+    ],
+    [
+      "go through",
+      "yaşamak, geçirmek, içinden geçmek",
+      "The patients had to go through a rigorous screening process before the clinical trial.",
+      "Hastalar, klinik araştırmadan önce zorlu bir tarama sürecinden geçmek zorunda kaldı.",
+      "Go (Gitmek) + Through (İçinden) - Zorlu bir tünelin içinden gitmek, o zorluğu 'yaşamak'."
+    ],
+    [
+      "be faced with",
+      "ile karşı karşıya kalmak",
+      "The committee was faced with a difficult decision regarding the budget cuts.",
+      "Komite, bütçe kesintileriyle ilgili zor bir kararla karşı karşıya kaldı.",
+      "Face (Yüz) - Bir problemle 'yüz yüze' gelmek, karşı karşıya kalmak."
+    ],
+    [
+      "be exposed to",
+      "maruz kalmak",
+      "Workers who are exposed to high levels of radiation must wear protective gear.",
+      "Yüksek düzeyde radyasyona maruz kalan işçiler koruyucu giysi giymelidir.",
+      "Poz (Ex-posed) - Kameranın ışığına doğrudan 'maruz kalan' fotoğraf pozu."
+    ],
+    [
+      "put up with",
+      "katlanmak, tahammül etmek",
+      "Residents have to put up with the constant noise from the nearby highway construction.",
+      "Sakinler, yakındaki otoyol inşaatından gelen sürekli gürültüye katlanmak zorunda.",
+      "Put (Koymak) + Up (Yukarı) - Yükü yukarı kaldırıp 'tahammül ederek' taşımak."
+    ],
+    [
+      "bear",
+      "katlanmak, üstlenmek, (meyve) vermek",
+      "The company had to bear the financial losses resulting from the failed product launch.",
+      "Şirket, başarısız ürün lansmanından kaynaklanan finansal kayıplara katlanmak zorunda kaldı.",
+      "Bear (Ayı) - Kış uykusundaki bir ayının açlığa ve soğuğa 'katlanması'."
+    ],
+    [
+      "stand",
+      "katlanmak, dayanmak, ayakta durmak",
+      "I cannot stand the pressure of working under such chaotic conditions anymore.",
+      "Artık böyle kaotik koşullar altında çalışmanın baskısına katlanamıyorum.",
+      "Stand (Ayakta kalmak) - Ayakta dimdik durarak zorluklara 'direnmek/dayanmak'."
+    ],
+    [
+      "withstand",
+      "dayanmak, karşı koymak, direnmek",
+      "The modern bridge was engineered to withstand powerful earthquakes and high winds.",
+      "Modern köprü, güçlü depremlere ve şiddetli rüzgarlara dayanacak şekilde tasarlandı.",
+      "With (Karşı) + Stand (Durmak) - Bir güce karşı durmak, zarar görmeden 'direnmek'."
+    ],
+    [
+      "tolerate",
+      "tolere etmek, katlanmak, müsamaha göstermek",
+      "The university does not tolerate any form of academic dishonesty or plagiarism.",
+      "Üniversite, akademik sahtekarlığın veya intihalin hiçbir türüne müsamaha göstermez.",
+      "Tolerans (Tolerance) - Karşı tarafa tolerans göstermek, onun hatasına 'katlanmak'."
+    ],
+    [
+      "endure",
+      "dayanmak, katlanmak, sürmek",
+      "The political prisoners had to endure harsh conditions during their long captivity.",
+      "Siyasi mahkumlar, uzun esaretleri boyunca ağır koşullara katlanmak zorunda kaldılar.",
+      "Dayanıklılık (Endurance) - Maraton koşucularının sahip olduğu 'dayanma' gücü."
+    ],
+    [
+      "survive",
+      "hayatta kalmak, sağ kalmak",
+      "Only a few ancient manuscripts managed to survive the destructive fire in the library.",
+      "Kütüphanedeki yıkıcı yangından sadece birkaç antik el yazması hayatta kalmayı başardı.",
+      "Survivor - Yarışmadaki gibi zor şartlarda 'hayatta kalma' mücadelesi vermek."
+    ],
+    [
+      "start (off)",
+      "başlamak, başlatmak",
+      "The festival will start off with a spectacular parade through the city center.",
+      "Festival, şehir merkezinden geçecek muhteşem bir geçit töreniyle başlayacak.",
+      "Start - Yarışlardaki 'start' çizgisinden, yani 'başlangıç' noktasından hatırlanabilir."
+    ],
+    [
+      "begin",
+      "başlamak",
+      "The judicial proceedings will begin as soon as the defense files the necessary documents.",
+      "Savunma gerekli belgeleri sunar sunmaz adli süreç başlayacak.",
+      ""
+    ],
+    [
+      "initiate",
+      "başlatmak, önayak olmak",
+      "The government decided to initiate a new program to upgrade public infrastructure.",
+      "Hükümet, kamu altyapısını geliştirmek için yeni bir program başlatmaya karar verdi.",
+      "Initial (İlk/Baş harf) - Bir işin 'ilk' adımını atmak, süreci 'başlatmak'."
+    ],
+    [
+      "launch",
+      "başlatmak, (roket) fırlatmak, (ürün) piyasaya sürmek",
+      "The tech firm plans to launch its new artificial intelligence software next month.",
+      "Teknoloji firması, yeni yapay zeka yazılımını önümüzdeki ay piyasaya sürmeyi (başlatmayı) planlıyor.",
+      "Lansman - Yeni üretilen bir arabanın piyasaya sürülme, 'başlatılma' gecesi."
+    ],
+    [
+      "introduce",
+      "tanıtmak, piyasaya sürmek, ilk kez getirmek",
+      "The school board wants to introduce modern coding classes to the primary curriculum.",
+      "Okul aile birliği, ilkokul müfredatına modern kodlama dersleri getirmek (tanıtmak) istiyor.",
+      "Introduction (Giriş) - Kitapların 'giriş' kısmında konunun 'tanıtılması'."
+    ],
+    [
+      "take up",
+      "yapmaya başlamak (hobi/meslek), yer/zaman kaplamak",
+      "He decided to take up photography as a hobby after his retirement from the bank.",
+      "Bankadan emekli olduktan sonra hobi olarak fotoğrafçılığa başlamaya karar verdi.",
+      "Take (Almak) + Up (Yukarı) - Hobiyi yukarı kaldırıp hayatının içine almak, 'başlamak'."
+    ],
+    [
+      "break out",
+      "aniden başlamak/patlak vermek (savaş/yangın), kaçmak",
+      "Fears grew that a civil war might break out due to the political instability.",
+      "Siyasi istikrarsızlık nedeniyle bir iç savaşın patlak verebileceği endişeleri arttı.",
+      "Prison Break - Hapishaneden 'kaçmak' veya bir krizin zincirlerini kırıp 'patlak vermesi'."
+    ],
+    [
+      "originate from",
+      "-den kaynaklanmak, -den doğmak",
+      "Many words in the English language originate from Latin and ancient Greek roots.",
+      "İngiliz dilindeki birçok kelime, Latince ve antik Yunanca kökenlerden kaynaklanmaktadır.",
+      "Orijinal (Original) - Bir şeyin orijinal yeri, çıktığı, 'kaynaklandığı' nokta."
+    ],
+    [
+      "derive from",
+      "-den türemek, -den kaynaklanmak",
+      "The scientist explained how the new compound is derived from natural plant extracts.",
+      "Bilim insanı, yeni bileşiğin doğal bitki özlerinden nasıl türetildiğini açıkladı.",
+      "Derive (Türev) - Matematikteki 'türev' gibi, bir kökten başka bir şey 'türetmek'."
+    ],
+    [
+      "come from",
+      "-den gelmek",
+      "Most of the funding for this environmental research comes from private donations.",
+      "Bu çevre araştırması için finansmanın büyük kısmı özel bağışlardan gelmektedir.",
+      ""
+    ],
+    [
+      "result from",
+      "-den kaynaklanmak, -den ileri gelmek",
+      "The flooding in the coastal city resulted from a unique combination of high tides and heavy rain.",
+      "Kıyı kentindeki sel, yüksek gelgit ve şiddetli yağmurun eşsiz birleşiminden kaynaklandı.",
+      "Result (Sonuç) - Bir sebebin 'sonucu olarak' ortaya çıkmak."
+    ],
+    [
+      "stem from",
+      "-den kaynaklanmak, -den gelmek",
+      "Her deep-seated fear of flying stems from a turbulent flight she experienced as a child.",
+      "Onun köklü uçuş korkusu, çocukken yaşadığı türbülanslı bir uçuştan kaynaklanmaktadır.",
+      "Stem (Kök/Gövde) - Ağacın gövdesinden, yani 'kökünden kaynaklanmak'."
+    ],
+    [
+      "argue",
+      "tartışmak, ileri sürmek",
+      "Some economists argue that reducing taxes is the best way to stimulate market spending.",
+      "Bazı ekonomistler, vergileri düşürmenin piyasa harcamalarını canlandırmanın en iyi yolu olduğunu ileri sürüyor.",
+      "Argu (Argüman) - Tartışmalarda haklı çıkmak için öne sürülen 'argüman'."
+    ],
+    [
+      "dispute",
+      "tartışmak, itiraz etmek, anlaşmazlığa düşmek",
+      "The two neighboring countries dispute the exact location of their maritime border.",
+      "İki komşu ülke, deniz sınırlarının tam yeri konusunda anlaşmazlığa düşüyor.",
+      "Dis-put (Ters koymak) - Karşı tarafın fikrini tersine koyup onunla 'tartışmak'."
+    ],
+    [
+      "quarrel",
+      "tartışmak, kavga etmek, atışmak",
+      "The siblings used to quarrel constantly over who would inherit the family estate.",
+      "Kardeşler, aile mülkünün kime kalacağı konusunda sürekli tartışırlardı.",
+      "Kural (Quar-rel) - Kurallara uymayan insanlar arasında çıkan ağız 'kavgası'."
+    ],
+    [
+      "negotiate",
+      "müzakere etmek, görüşmek",
+      "The labor union met with the management to negotiate better working hours for the staff.",
+      "İşçi sendikası, personel için daha iyi çalışma saatleri müzakere etmek üzere yönetimle bir araya geldi.",
+      "Nego (Negosyo/Ticaret) - Ticaret masasında şartları karşılıklı 'müzakere etmek'."
+    ],
+    [
+      "discuss",
+      "tartışmak, görüşmek, fikir alışverişinde bulunmak",
+      "The board of directors will gather tomorrow to discuss the new international investment plan.",
+      "Yönetim kurulu, yeni uluslararası yatırım planını görüşmek üzere yarın toplanacak.",
+      "Discussion - Forumlarda açılan 'tartışma/görüşme' başlıkları."
+    ],
+    [
+      "debate",
+      "tartışmak (özellikle resmi/akademik ortamda)",
+      "Politicians gathered on television to debate the social impacts of the new educational reform.",
+      "Politikacılar, yeni eğitim reformunun sosyal etkilerini tartışmak üzere televizyonda toplandılar.",
+      "Münazara (Debate) - İki grubun bir konuyu resmi olarak 'tartışması'."
+    ],
+    [
+      "exchange ideas",
+      "fikir alışverişinde bulunmak",
+      "The international summit provided an excellent platform for scientists to exchange ideas.",
+      "Uluslararası zirve, bilim insanlarının fikir alışverişinde bulunmaları için mükemmel bir platform sağladı.",
+      "Exchange (Döviz/Takas) + Ideas (Fikirler) = Karşılıklı fikir takası yapmak."
+    ],
+    [
+      "bargain*",
+      "pazarlık etmek, anlaşmak",
+      "In local markets, it is common practice to bargain with vendors to get a lower price.",
+      "Yerel pazarlarda, daha düşük bir fiyat almak için satıcılarla pazarlık etmek yaygın bir uygulamadır.",
+      "Barkod (Bar-gain) - Barkodu olmayan eski usul ürünlerde 'pazarlık etmek'."
+    ],
+    [
+      "offer",
+      "önermek, teklif etmek, sunmak",
+      "The university decided to offer a new online degree program in data science.",
+      "Üniversite, veri bilimi alanında yeni bir online lisans programı sunmaya karar verdi.",
+      "Ofis (Offer) - Ofiste müşteriye yeni bir iş sözleşmesi 'teklif etmek'."
+    ],
+    [
+      "propose",
+      "önermek, teklif etmek (evlilik/proje)",
+      "The research team will propose a novel solution to reduce toxic waste at the conference.",
+      "Araştırma ekibi, konferansta toksik atıkları azaltmak için yeni bir çözüm önerecek.",
+      "Proposal - Evlilik teklifi (Marriage proposal) veya bir projeyi 'önermek'."
+    ],
+    [
+      "suggest",
+      "önermek, tavsiye etmek, belirtmek",
+      "Recent studies suggest that global warming is accelerating faster than previously expected.",
+      "Son çalışmalar, küresel ısınmanın önceden beklenenden daha hızlı ivme kazandığını göstermektedir (belirtmektedir).",
+      "Sünger (Sug-gest) - Temizlik için sünger kullanmayı 'önermek'."
+    ],
+    [
+      "recommend",
+      "tavsiye etmek, önermek",
+      "Doctors highly recommend taking a brief walk every day to improve cardiovascular health.",
+      "Doktorlar, kalp ve damar sağlığını iyileştirmek için her gün kısa bir yürüyüş yapmayı önemle tavsiye ediyor.",
+      "Yorumlar (Re-commend) - Alışveriş sitelerinde ürünün altındaki 'tavsiye' yorumları."
+    ],
+    [
+      "advise",
+      "tavsiye vermek, öğütlemek",
+      "Financial experts advise investors to diversify their portfolios to avoid catastrophic losses.",
+      "Finans uzmanları, büyük kayıplardan kaçınmak için yatırımcılara portföylerini çeşitlendirmelerini tavsiye ediyor.",
+      "Advisor - Şirketlerde stratejik yön gösteren danışman, 'tavsiye veren' kişi."
+    ],
+    [
+      "come up with",
+      "(fikir/çözüm) bulmak, ileri sürmek, üretmek",
+      "The marketing department needs to come up with a brilliant strategy for the product launch.",
+      "Pazarlama departmanının, ürün lansmanı için zekice bir strateji bulması gerekiyor.",
+      "Come (Gelmek) + Up (Yukarı) - Kafada aniden yukarı fırlayan, 'bulunan' parlak fikir."
+    ],
+    [
+      "show",
+      "göstermek",
+      "The official graphs show a clear correlation between education levels and income stability.",
+      "Resmi grafikler, eğitim düzeyleri ile gelir istikrarı arasında net bir ilişki göstermektedir.",
+      "Şov (Show) - Sahnede yapılan, insanların izlemesi için 'gösterilen' etkinlik."
+    ],
+    [
+      "indicate",
+      "göstermek, işaret etmek, belirtmek",
+      "A sudden drop in atmospheric pressure can indicate an approaching storm.",
+      "Atmosfer basıncındaki ani bir düşüş, yaklaşan bir fırtınayı işaret edebilir (gösterebilir).",
+      "İndikatör - Kimyada veya borsada yönü 'gösteren' teknik gösterge."
+    ],
+    [
+      "reveal",
+      "ortaya çıkarmak, ifşa etmek, göstermek",
+      "The archaeological excavation revealed a magnificent ancient palace hidden underground.",
+      "Arkeolojik kazı, yer altında gizlenmiş muhteşem bir antik sarayı ortaya çıkardı.",
+      "Rövaşata (Re-veal) - Futbolda rövaşata atarak gerçek yeteneğini 'ortaya çıkarmak'."
+    ],
+    [
+      "demonstrate",
+      "göstermek, kanıtlamak, gösteri yapmak",
+      "The laboratory experiment was designed to demonstrate the laws of thermodynamics.",
+      "Laboratuvar deneyi, termodinamik yasalarını göstermek (kanıtlamak) için tasarlandı.",
+      "Demonstrasyon - Bir ürünün nasıl çalıştığını uygulamalı olarak 'göstermek'."
+    ],
+    [
+      "suggest (that)",
+      "ileri sürmek, göstermek, işaret etmek",
+      "The initial data suggest that the new vaccine provides long-term protection against the virus.",
+      "İlk veriler, yeni aşının virüse karşı uzun vadeli koruma sağladığını göstermektedir.",
+      "Sünger (Sug-gest) - Delillerin suyu çekmesi gibi, gerçeği 'işaret etmek'."
+    ],
+    [
+      "signify",
+      "anlamına gelmek, ifade etmek, göstermek",
+      "The dark clouds on the horizon signify a dramatic change in the local weather pattern.",
+      "Ufuktaki kara bulutlar, yerel hava durumunda ciddi bir değişikliği ifade eder (gösterir).",
+      "Significant (Önemli) - Önemli bir anlam 'ifade etmek', bir manaya gelmek."
+    ],
+    [
+      "present",
+      "sunmak, göstermek, takdim etmek",
+      "The research team will present their final findings to the international committee tomorrow.",
+      "Araştırma ekibi, nihai bulgularını yarın uluslararası komiteye sunacak.",
+      "Prezantasyon (Presentation) - Sahnede slaytlarla yapılan proje 'sunumu'."
+    ],
+    [
+      "think",
+      "düşünmek",
+      "Many historians think that ancient civilizations had advanced knowledge of astronomy.",
+      "Birçok tarihçi, antik medeniyetlerin astronomi konusunda gelişmiş bilgilere sahip olduğunu düşünüyor.",
+      ""
+    ],
+    [
+      "feel",
+      "hissetmek, düşünmek/öyle gelmek",
+      "The managers feel that the current strategy is inadequate to survive the market crash.",
+      "Yöneticiler, mevcut stratejinin piyasa çöküşünden sağ çıkmak için yetersiz olduğunu düşünüyorlar (hissediyorlar).",
+      ""
+    ],
+    [
+      "ponder",
+      "üzerinde derin derin düşünmek, kafa yormak",
+      "The philosopher spent his entire life pondering the true meaning of human existence.",
+      "Filozof, tüm hayatını insan varoluşunun gerçek anlamı üzerinde derin derin düşünerek geçirdi.",
+      "Pano (Pon-der) - Panodaki karmaşık formüllere bakıp 'derin derin düşünmek'."
+    ],
+    [
+      "consider",
+      "düşünmek, göz önünde bulundurmak, saymak/kabul etmek",
+      "We must consider all alternative energy sources before making a permanent investment.",
+      "Kalıcı bir yatırım yapmadan önce tüm alternatif enerji kaynaklarını göz önünde bulundurmalıyız.",
+      "Konsantre (Con-sider) - Bir konuya konsantre olup onu 'enine boyuna düşünmek'."
+    ],
+    [
+      "regard",
+      "olarak görmek/kabul etmek, saygı duymak",
+      "Many critics regard the author's third novel as a true masterpiece of modern literature.",
+      "Birçok eleştirmen, yazarın üçüncü romanını modern edebiyatın gerçek bir başyapıtı olarak görüyor.",
+      "Regards - E-postaların sonuna yazılan 'saygılarımla' (Kind regards) ifadesinden."
+    ],
+    [
+      "view",
+      "görmek, bakmak, değerlendirmek",
+      "Sociologists view the rise of digital communities as a fundamental shift in human interaction.",
+      "Sosyologlar, dijital toplulukların yükselişini insani etkileşimde temel bir değişim olarak görüyorlar.",
+      "View (Manzara) - Güzel bir manzaraya 'bakmak', onu gözle 'görmek'."
+    ]
+  ],
+  "VERB_SET_2": [
+    [
+      "stop (from)",
+      "durdurmak, engel olmak",
+      "The new security measures are designed to stop unauthorized users from accessing the database.",
+      "Yeni güvenlik önlemleri, yetkisiz kullanıcıların veri tabanına erişmesini engellemek (durdurmak) için tasarlanmıştır.",
+      "Otobüs durağındaki 'STOP' tabelası trafiği ve arabaları 'durdurmak' içindir."
+    ],
+    [
+      "cease",
+      "durmak, durdurmak, sona ermek",
+      "The two factions agreed to cease all hostile actions during the peace negotiations.",
+      "İki grup, barış müzakereleri sırasında tüm düşmanca eylemleri durdurma konusunda anlaştı.",
+      "Ceasefire (Ateşkes) - Ateş etmeyi 'durdurmak', savaşa son vermek."
+    ],
+    [
+      "quit",
+      "bırakmak, çıkmak, vazgeçmek",
+      "He decided to quit his corporate job to pursue a full-time career in creative writing.",
+      "Yaratıcı yazarlık alanında tam zamanlı bir kariyer sürdürmek için kurumsal işini bırakmaya karar verdi.",
+      "Bilgisayar oyunlarından çıkarken veya programı kapatırken basılan 'QUIT' butonu."
+    ],
+    [
+      "halt",
+      "durdurmak, kesilmek, duraklamak",
+      "Production was temporarily halted due to a major technical failure in the main power supply.",
+      "Ana güç kaynağındaki büyük bir teknik arıza nedeniyle üretime geçici olarak ara verildi (durduruldu).",
+      "Askerlerin hazır ol durumunda 'Halt!' (Dur!) diye bağırması."
+    ],
+    [
+      "give up",
+      "bırakmak, vazgeçmek, teslim olmak",
+      "Despite facing numerous economic challenges, the entrepreneurs refused to give up on their project.",
+      "Çok sayıda ekonomik zorlukla karşılaşmalarına rağmen, girişimciler projelerinden vazgeçmeyi reddettiler.",
+      "Give (Vermek) + Up (Yukarı) - Ellerini yukarı kaldırıp mücadeleyi 'bırakmak', teslim olmak."
+    ],
+    [
+      "abandon",
+      "terk etmek, bırakmak",
+      "The crew had to abandon the sinking ship after the rescue boats arrived.",
+      "Kurtarma botları geldikten sonra mürettebat batan gemiyi terk etmek zorunda kaldı.",
+      "Abanmak (Aban-don) - Birinin üstüne çok abanınca seni 'terk edip gitmesi'."
+    ],
+    [
+      "terminate",
+      "sonlandırmak, bitirmek",
+      "The company reserves the right to terminate the contract if the terms are breached.",
+      "Şirket, şartlar ihlal edilirse sözleşmeyi sonlandırma hakkını saklı tutar.",
+      "Terminatör - Düşmanlarını tamamen yok edip onların hayatını 'sonlandıran' robot."
+    ],
+    [
+      "understand",
+      "anlamak, kavramak",
+      "To solve complex global issues, scientists must first understand the root causes of climate change.",
+      "Karmaşık küresel sorunları çözmek için bilim insanları öncelikle iklim değişikliğinin temel nedenlerini anlamalıdır.",
+      "Under (Altında) + Stand (Durmak) - Bir konunun altında durup onu iyice 'anlamak'."
+    ],
+    [
+      "comprehend",
+      "anlamak, kavramak, idrak etmek",
+      "The written text was so dense that it was difficult for the students to comprehend the main idea.",
+      "Yazılı metin o kadar yoğundu ki öğrencilerin ana fikri kavraması zordu.",
+      "Komple (Compre-hend) - Bir konuyu 'komple' beynine alıp 'idrak etmek'."
+    ],
+    [
+      "realize",
+      "farkına varmak, gerçekleştirmek",
+      "It took several months for the management to realize the full impact of the marketing campaign.",
+      "Yönetimin pazarlama kampanyasının tüm etkisinin farkına varması birkaç ay sürdü.",
+      "Real (Gerçek) - Bir şeyin 'gerçek' halini görüp aniden 'farkına varmak'."
+    ],
+    [
+      "recognize",
+      "tanımak, fark etmek, (resmi olarak) kabul etmek",
+      "The software is designed to recognize human faces even in low-light environments.",
+      "Yazılım, düşük ışıklı ortamlarda bile insan yüzlerini tanımak üzere tasarlanmıştır.",
+      "Cognitive (Bilişsel) - Re (Yeniden) + Cognize = Hafızadaki bir şeyi yeniden görüp 'tanımak'."
+    ],
+    [
+      "perceive",
+      "algılamak, kavramak",
+      "Animals can perceive environmental changes that are completely unnoticeable to humans.",
+      "Hayvanlar, insanlar tarafından tamamen fark edilemeyen çevresel değişiklikleri algılayabilir.",
+      "Perception (Algı) - Duyu organlarıyla yapılan 'algılama' işlemi."
+    ],
+    [
+      "learn",
+      "öğrenmek, sonuç çıkarmak",
+      "Children learn foreign languages much faster when they are exposed to them at an early age.",
+      "Çocuklar erken yaşta maruz kaldıklarında yabancı dilleri çok daha hızlı öğrenirler.",
+      ""
+    ],
+    [
+      "discover",
+      "keşfetmek, ortaya çıkarmak",
+      "Researchers discover new deep-sea species every time they explore the Mariana Trench.",
+      "Araştırmacılar, Mariana Çukuru'nu her keşfettiklerinde yeni derin deniz türleri keşfederler.",
+      "Dis (Kaldırmak) + Cover (Kapak) - Bir şeyin üstündeki kapağı kaldırıp onu 'keşfetmek'."
+    ],
+    [
+      "find out",
+      "öğrenmek, bulmak, ortaya çıkarmak",
+      "The investigation aimed to find out the truth behind the financial fraud.",
+      "Soruşturma, finansal dolandırıcılığın arkasındaki gerçeği ortaya çıkarmayı (öğrenmeyi) amaçlıyordu.",
+      "Find (Bulmak) + Out (Dışarı) - Gizli kalmış bir bilgiyi dışarı çıkarıp 'bulmak/öğrenmek'."
+    ],
+    [
+      "sort out*",
+      "çözmek, halletmek, sınıflandırmak",
+      "The IT department is working diligently to sort out the server issues affecting the website.",
+      "Bilişim departmanı, web sitesini etkileyen sunucu sorunlarını çözmek için titizlikle çalışıyor.",
+      "Sort (Sıralamak/Tür) - Sorunları türlerine göre ayırıp ortadan kaldırmak, 'halletmek'."
+    ],
+    [
+      "pick up*",
+      "öğrenmek (zahmetsizce/kapmak), toplamak, (birini) arabayla almak",
+      "Living abroad allows individuals to pick up the local language and cultural nuances quickly.",
+      "Yurtdışında yaşamak, bireylerin yerel dili ve kültürel nüansları hızlıca kapmasını (öğrenmesini) sağlar.",
+      "Pick (Seçmek/Almak) + Up (Yukarı) - Yerdeki bilgiyi yukarı kaldırıp havada 'kapmak/öğrenmek'."
+    ],
+    [
+      "figure out",
+      "anlamak, çözmek, hesaplayıp bulmak",
+      "Scientists are trying to figure out how the virus mutates so rapidly under laboratory conditions.",
+      "Bilim insanları, virüsün laboratuvar koşullarında nasıl bu kadar hızlı mutasyona uğradığını çözmeye çalışıyor.",
+      "Figür (Figure) - Karmaşık bir figürün/şifrenin ne anlama geldiğini 'çözmek'."
+    ],
+    [
+      "conclude",
+      "sonucuna varmak, sonlandırmak",
+      "Based on the gathering evidence, the jury will likely conclude that the suspect is guilty.",
+      "Toplanan kanıtlara dayanarak, jüri muhtemelen şüphelinin suçlu olduğu sonucuna varacak.",
+      "Conclusion (Sonuç) - Makalelerin en sonundaki 'sonuç/bağlam' bölümü."
+    ],
+    [
+      "emerge",
+      "ortaya çıkmak, belirmek",
+      "New economic powers began to emerge in Asia during the late twentieth century.",
+      "Yirminci yüzyılın sonlarında Asya'da yeni ekonomik güçler ortaya çıkmaya başladı.",
+      "E-merge (E-ticaret) - İnternetin hayatımıza girmesiyle yeni iş kollarının 'ortaya çıkması'."
+    ],
+    [
+      "arise",
+      "ortaya çıkmak, baş göstermek (sorun/durum)",
+      "Serious legal complications can arise if the contract is signed without legal review.",
+      "Sözleşme yasal bir inceleme yapılmadan imzalanırsa, ciddi yasal karmaşıklıklar ortaya çıkabilir.",
+      "Rise (Yükselmek) - Bir problemin dipten yukarı doğru yükselip 'baş göstermesi'."
+    ],
+    [
+      "originate",
+      "başlamak, kaynaklanmak, ortaya çıkmak",
+      "The custom of drinking tea is believed to originate from ancient China.",
+      "Çay içme geleneğinin antik Çin'den kaynaklandığına (ortaya çıktığına) inanılmaktadır.",
+      "Orijinal (Original) - Bir şeyin ilk üretildiği, ilk 'ortaya çıktığı' köken."
+    ],
+    [
+      "appear",
+      "görünmek, ortaya çıkmak, belirmek",
+      "Symptoms of the disease usually appear within two weeks of initial exposure.",
+      "Hastalığın semptomları genellikle ilk maruziyetten sonraki iki hafta içinde görünür.",
+      "Hopörler (Appear-ance) - Sahneye bir anda çıkıp 'görünen' sanatçı."
+    ],
+    [
+      "develop",
+      "gelişmek, ortaya çıkmak, (hastalığa) yakalanmak",
+      "The local tech industry continues to develop rapid software solutions for global markets.",
+      "Yerel teknoloji sektörü, küresel piyasalar için hızlı yazılım çözümleri geliştirmeye devam ediyor.",
+      "Developer (Yazılımcı) - Sürekli yeni projeler ve yazılımlar 'geliştiren' kişi."
+    ],
+    [
+      "show up",
+      "çıkagelmek, ortaya çıkmak, görünmek",
+      "Despite his previous promises, he did not show up for the strategic board meeting.",
+      "Önceki sözlerine rağmen, stratejik yönetim kurulu toplantısına gelmedi (ortaya çıkmadı).",
+      "Show (Gösteri) + Up (Yukarı) - Sahneye yukarı doğru çıkıp aniden 'görünmek'."
+    ],
+    [
+      "enable",
+      "olanak sağlamak, imkan vermek",
+      "The advancements in biotechnology enable doctors to treat previously incurable genetic conditions.",
+      "Biyoteknolojideki gelişmeler, doktorların daha önce tedavi edilemeyen genetik hastalıkları tedavi etmesine olanak sağlıyor.",
+      "Able (Yapabilmek) - En-able = Birine bir işi yapabilmesi için yetki/imkan 'sağlamak'."
+    ],
+    [
+      "empower",
+      "yetkilendirmek, güçlendirmek, imkan vermek",
+      "The educational foundation aims to empower young women through technical training programs.",
+      "Eğitim vakfı, teknik eğitim programları aracılığıyla genç kadınları güçlendirmeyi amaçlıyor.",
+      "Power (Güç) - Em-power = Birine güç vermek, onu 'yetkilendirmek'."
+    ],
+    [
+      "facilitate",
+      "kolaylaştırmak",
+      "The introduction of modern infrastructure will facilitate trade between the two provinces.",
+      "Modern altyapının getirilmesi, iki il arasındaki ticareti kolaylaştıracaktır.",
+      "Facile (Kolay) - Fransızca/Latince kökenli 'kolay' kelimesinden türemiş eylem."
+    ],
+    [
+      "make possible",
+      "mümkün kılmak, olanak tanımak",
+      "Satellite imagery has made possible the accurate mapping of remote rainforests.",
+      "Uydu görüntüleri, uzak yağmur ormanlarının doğru haritalanmasını mümkün kılmıştır.",
+      "Make (Yapmak) + Possible (Mümkün) - Bir durumu imkansızlıktan çıkarıp 'mümkün kılmak'."
+    ],
+    [
+      "weaken",
+      "zayıflatmak, güçten düşürmek",
+      "Prolonged exposure to economic sanctions can drastically weaken a country's currency value.",
+      "Ekonomik yaptırımlara uzun süre maruz kalmak, bir ülkenin para birimi değerini büyük ölçüde zayıflatabilir.",
+      "Weak (Zayıf) - Weak-en = Bir şeyi gücünü azaltarak 'zayıflatmak'."
+    ],
+    [
+      "ruin",
+      "mahvetmek, bozmak, yıkmak",
+      "The sudden frost overnight threatened to ruin the entire seasonal crop of the farmers.",
+      "Gece meydana gelen ani don olayı, çiftçilerin tüm mevsimlik ürününü mahvetmekle tehdit etti.",
+      "Ruin (Harabe) - Bir şehri harabeye çevirmek, tamamen 'mahvetmek'."
+    ],
+    [
+      "harm",
+      "zarar vermek",
+      "Industrial factories must implement filtering systems to avoid harming the public health.",
+      "Sanayi fabrikaları, halk sağlığına zarar vermekten kaçınmak için filtreleme sistemleri uygulamalıdır.",
+      "Harmful (Zararlı) kelimesinin fiil köküdür; incitmek, 'zarar vermek'."
+    ],
+    [
+      "undermine",
+      "baltalamak, temelini kazımak/zayıflatmak",
+      "Constant criticism without constructive feedback can severely undermine an employee's confidence.",
+      "Yapıcı geri bildirim olmadan yapılan sürekli eleştiriler, bir çalışanın güvenini ciddi şekilde baltalayabilir.",
+      "Under (Altından) + Mine (Maden kazmak) - Bir yapının altından maden kazarak onu 'baltalamak'."
+    ],
+    [
+      "damage",
+      "hasar vermek, zarar vermek",
+      "The heavy hailstorm managed to damage several vehicles parked in the open street.",
+      "Şiddetli dolu fırtınası, açık sokakta park edilmiş birkaç araca hasar vermeyi başardı.",
+      "Hasar raporlarında yazan 'Damage' (Zarar/Hasar) miktarı."
+    ],
+    [
+      "spoil",
+      "bozmak, şımartmak, çürümek (yiyecek)",
+      "If milk is not kept in a cold refrigerator, it will spoil within a few hours.",
+      "Süt soğuk bir buzdolabında saklanmazsa, birkaç saat içinde bozulur (çürür).",
+      "Spoiler - Bir filmin sonunu söyleyerek tüm seyir zevkini 'bozmak'."
+    ],
+    [
+      "disrupt",
+      "aksatmak, düzenini bozmak, kesintiye uğratmak",
+      "The widespread protests threatened to disrupt the city's public transportation network.",
+      "Geniş çaplı protestolar, şehrin toplu taşıma ağını aksatmakla (düzenini bozmakla) tehdit etti.",
+      "Dis-rupt (Rüptür/Yırtılma) - Var olan düzeni yırtıp 'kesintiye uğratmak'."
+    ],
+    [
+      "devastate",
+      "yerle bir etmek, büyük yıkıma uğratmak",
+      "The hurricane was strong enough to devastate entire coastal villages within minutes.",
+      "Kasırga, kıyı köylerini dakikalar içinde yerle bir edecek kadar güçlüydü.",
+      "Dev-Asa (Devastat-e) - 'Devasa' bir güçle ortalığı 'yerle bir etmek'."
+    ],
+    [
+      "demolish",
+      "yıkmak, yerle bir etmek (bina vb.)",
+      "The local municipality decided to demolish the old warehouse to build a green park.",
+      "Yerel belediye, yeşil bir park yapmak için eski depoyu yıkmaya karar verdi.",
+      "Delice imha (Demol-ish) - Eskimiş binaları iş makineleriyle 'yıkmak'."
+    ],
+    [
+      "mess up",
+      "mahvetmek, karıştırmak, yüzüne gözüne bulaştırmak",
+      "One wrong mathematical calculation can mess up the entire engineering project plan.",
+      "Tek bir yanlış matematiksel hesaplama, tüm mühendislik proje planını mahvedebilir.",
+      "Mess (Dağınıklık) - Ortalığı 'mess' hale getirmek, yani 'mahvetmek'."
+    ],
+    [
+      "cause",
+      "sebep olmak, yol açmak",
+      "Reckless driving is one of the primary factors that cause fatal traffic accidents.",
+      "Dikkatsiz sürüş, ölümlü trafik kazalarına sebep olan birincil faktörlerden biridir.",
+      "Because (Çünkü) kelimesinin köküdür; bir olayın 'sebebi olmak'."
+    ],
+    [
+      "lead to",
+      "yol açmak, -e götürmek",
+      "Ignoring minor medical symptoms can eventually lead to severe health complications.",
+      "Küçük tıbbi semptomları göz ardı etmek, sonunda ciddi sağlık sorunlarına yol açabilir.",
+      "Leader (Lider) - Takımı başarıya veya belirli bir sonuca 'götüren' kişi."
+    ],
+    [
+      "bring about",
+      "sebep olmak, getirmek, (değişime) yol açmak",
+      "The technological revolution will bring about major changes in daily manufacturing methods.",
+      "Teknoloji devrimi, günlük üretim yöntemlerinde büyük değişikliklere yol açacak (beraberinde getirecek).",
+      "Bring (Getirmek) + About (Hakkında) - Bir konuyu gündeme getirmek, değişime 'sebep olmak'."
+    ],
+    [
+      "contribute to",
+      "katkıda bulunmak, -e sebep olmak (olumlu veya olumsuz)",
+      "Regular physical exercise can significantly contribute to long-term cardiovascular health.",
+      "Düzenli fiziksel egzersiz, uzun vadeli kalp sağlığına önemli ölçüde katkıda bulunabilir.",
+      "Kontribüsyon (Contribution) - Projeye veya sürece verilen 'katkı'."
+    ],
+    [
+      "result in",
+      "ile sonuçlanmak, -e yol açmak",
+      "The long negotiation process between the two countries finally result in a peace treaty.",
+      "İki ülke arasındaki uzun müzakere süreci nihayet bir barış antlaşmasıyla sonuçlandı.",
+      "Result (Sonuç) - Bir işin finalde o 'sonuca varmasını' sağlamak."
+    ],
+    [
+      "end in",
+      "-ile bitmek, sonuçlanmak",
+      "The intense football match ended in a draw despite the continuous efforts of both teams.",
+      "Zorlu futbol maçı, her iki takımın sürekli çabalarına rağmen beraberlikle bitti (sonuçlandı).",
+      "End (Son) - Filmin veya sürecin o şekilde 'son bulması'."
+    ],
+    [
+      "trigger",
+      "tetiklemek, harekete geçirmek",
+      "A sudden increase in global gas prices can trigger inflation across multiple sectors.",
+      "Küresel gaz fiyatlarındaki ani bir artış, birden fazla sektörde enflasyonu tetikleyebilir.",
+      "Silahların ucundaki 'tetik' mekanizması (Trigger)."
+    ],
+    [
+      "stimulate",
+      "canlandırmak, uyarmak, teşvik etmek",
+      "The government lowered interest rates to stimulate economic spending and investments.",
+      "Hükümet, ekonomik harcamaları ve yatırımları canlandırmak için faiz oranlarını düşürdü.",
+      "Stimulant (Uyarıcı) - Vücudu veya sistemi 'canlandıran' doping etkisi."
+    ],
+    [
+      "prompt",
+      "tetiklemek, -e sevk etmek, yol açmak",
+      "The unexpected market crash prompted investors to withdraw their capital immediately.",
+      "Beklenmedik piyasa çöküşü, yatırımcıları sermayelerini derhal çekmeye sevk etti (tetikledi).",
+      "Yapay zekaya komut verip onu 'harekete geçiren/tetikleyen' yazı kelimesi (Prompt)."
+    ],
+    [
+      "inspire",
+      "ilham vermek, teşvik etmek",
+      "Her successful career story continues to inspire young students around the world.",
+      "Onun başarılı kariyer hikayesi, dünya çapındaki genç öğrencilere ilham vermeye devam ediyor.",
+      "İspirto (İnspir-e) - Sanatçının içindeki yaratıcılık ateşini yakan 'ilham'."
+    ],
+    [
+      "motivate*",
+      "motive etmek, isteklendirmek",
+      "Good managers know how to motivate their team members during tight project deadlines.",
+      "İyi yöneticiler, sıkışık proje teslim tarihlerinde ekip üyelerini nasıl motive edeceklerini bilirler.",
+      "Motivasyon (Motivation) - Bir işi yapmak için duyulan yüksek 'istek/enerji'."
+    ]
+  ],
+  "ADJACTIVE_SET_1": [
+    [
+      "important",
+      "önemli",
+      "It is important to understand the cultural context of a language.",
+      "Bir dilin kültürel bağlamını anlamak önemlidir.",
+      "İmparator (import-ant) halkı için 'önemli' kararlar alır."
+    ],
+    [
+      "significant",
+      "önemli, kayda değer",
+      "There has been a significant increase in the number of people using renewable energy.",
+      "Yenilenebilir enerji kullanan insan sayısında önemli bir artış oldu.",
+      "Sign (işaret) - Verilen önemli bir işaret 'significant'tır."
+    ],
+    [
+      "crucial",
+      "hayati, çok önemli",
+      "Vitamin C plays a crucial role in maintaining a healthy immune system.",
+      "C vitamini sağlıklı bir bağışıklık sistemini korumada hayati bir rol oynar.",
+      "Cruise gemisinde kaptan 'crucial' (hayati) biridir."
+    ],
+    [
+      "critical",
+      "kritik, çok önemli",
+      "The first few hours after the surgery are critical for the patient's recovery.",
+      "Ameliyattan sonraki ilk birkaç saat hastanın iyileşmesi için kritiktir.",
+      "Kritik (critical) kararlar hayat kurtarır."
+    ],
+    [
+      "vital",
+      "hayati, çok önemli",
+      "Education is vital for the economic development of a country.",
+      "Eğitim bir ülkenin ekonomik gelişimi için hayatidir.",
+      "Vital bulgular (nabız vb.) yaşamak için 'vital'dir."
+    ],
+    [
+      "necessary",
+      "gerekli",
+      "It is necessary to take precautions before the storm hits the city.",
+      "Fırtına şehri vurmadan önce önlem almak gereklidir.",
+      "Ne ses (ne-cess-ary) duyarsan duy, kaçmak için hız 'gerekli'."
+    ],
+    [
+      "essential",
+      "temel, zorunlu",
+      "Water is essential for all living organisms to survive.",
+      "Su, tüm canlı organizmaların hayatta kalması için esastır.",
+      "En sevdiğim (es-sen-tial) şeyler hayatım için 'temel'dir."
+    ],
+    [
+      "fundamental",
+      "temel, esas",
+      "The fundamental principles of democracy include freedom of speech.",
+      "Demokrasinin temel ilkeleri ifade özgürlüğünü içerir.",
+      "Funda mental (zihinsel) olarak 'temel' eğitimini tamamladı."
+    ],
+    [
+      "required",
+      "gerekli, zorunlu",
+      "The position requires a high level of expertise in computer science.",
+      "Bu pozisyon, bilgisayar bilimlerinde yüksek düzeyde uzmanlık gerektirmektedir.",
+      "Reket (re-quir-ed) tenis oynamak için 'gerekli'dir."
+    ],
+    [
+      "needed",
+      "gerekli, ihtiyaç duyulan",
+      "More funding is needed to complete the scientific research project.",
+      "Bilimsel araştırma projesini tamamlamak için daha fazla fon gereklidir.",
+      "Neden (need-ed) bu kadar çok malzemeye 'ihtiyaç duyuluyor'?"
+    ],
+    [
+      "strange",
+      "tuhaf, garip",
+      "I heard a strange noise coming from the basement last night.",
+      "Dün gece bodrumdan gelen garip bir ses duydum.",
+      "Doctor Strange oldukça 'tuhaf' bir karakterdir."
+    ],
+    [
+      "unusual",
+      "sıradışı, alışılmadık",
+      "It is unusual for him to be late for meetings.",
+      "Toplantılara geç kalması onun için alışılmadık bir durumdur.",
+      "Usual (olağan) - 'un' gelince 'sıradışı' oldu."
+    ],
+    [
+      "weird",
+      "garip, tuhaf",
+      "She has a weird habit of collecting old bus tickets.",
+      "Eski otobüs biletlerini toplamak gibi tuhaf bir alışkanlığı var.",
+      "Viyırtt (weird) diye 'garip' bir ses çıktı."
+    ],
+    [
+      "uncommon",
+      "nadir, alışılmamış",
+      "Red squirrels are quite uncommon in this part of the country.",
+      "Kızıl sincaplar ülkenin bu bölgesinde oldukça nadirdir.",
+      "Common (yaygın) olmayan şey 'nadir'dir."
+    ],
+    [
+      "massive",
+      "devasa, büyük",
+      "The explosion caused massive damage to the surrounding buildings.",
+      "Patlama çevredeki binalarda devasa hasara yol açtı.",
+      "Masa (mass-ive) o kadar büyük ki 'devasa' görünüyor."
+    ],
+    [
+      "huge",
+      "çok büyük, kocaman",
+      "They have a huge garden where they grow their own vegetables.",
+      "Kendi sebzelerini yetiştirdikleri kocaman bir bahçeleri var.",
+      "Hücum (huge-um) eden ordu 'çok büyük'tü."
+    ],
+    [
+      "vast",
+      "geniş, çok büyük (alan)",
+      "The Sahara Desert covers a vast area of Northern Africa.",
+      "Sahra Çölü Kuzey Afrika'nın çok geniş bir alanını kaplar.",
+      "Vast (bastığın) yerler 'geniş' ve uçsuz bucaksız."
+    ],
+    [
+      "immense",
+      "muazzam, çok büyük",
+      "The project was an immense challenge for the young engineering team.",
+      "Proje, genç mühendislik ekibi için muazzam bir zorluktu.",
+      "İmmen (İmkan) 'çok büyük' olunca başarı gelir."
+    ],
+    [
+      "enormous",
+      "devasa, çok büyük",
+      "The dinosaur was enormous compared to the modern-day animals.",
+      "Dinozor, günümüz hayvanlarına kıyasla devasaydı.",
+      "O norm (e-norm-ous) dışı, yani 'devasa'."
+    ],
+    [
+      "compulsory",
+      "zorunlu",
+      "Primary education is compulsory for all children in the country.",
+      "Ülkede ilköğretim tüm çocuklar için zorunludur.",
+      "Komiser (compul-sory) 'zorunlu' olarak ifade aldı."
+    ],
+    [
+      "mandatory",
+      "zorunlu",
+      "Wearing a seatbelt is mandatory for all passengers.",
+      "Emniyet kemeri takmak tüm yolcular için zorunludur.",
+      "Manda (mand-atory) gibi güçlü kurallar 'zorunlu'dur."
+    ],
+    [
+      "obligatory",
+      "zorunlu",
+      "It is obligatory to present a valid ID to enter the building.",
+      "Binaya girmek için geçerli bir kimlik sunmak zorunludur.",
+      "Obli (Abli-abla) 'zorunlu' ödevlerini yapıyor."
+    ],
+    [
+      "enforced",
+      "uygulanan, zorunlu kılınan",
+      "The new regulations were strictly enforced by the local authorities.",
+      "Yeni düzenlemeler yerel makamlarca sıkı bir şekilde uygulandı.",
+      "Force (güç) kullanarak 'zorunlu kılındı'."
+    ],
+    [
+      "sudden",
+      "ani, birden",
+      "A sudden change in the weather ruined our picnic plans.",
+      "Havadaki ani bir değişiklik piknik planlarımızı mahvetti.",
+      "Satan (sudd-en) kişi 'ani'den ortadan kayboldu."
+    ],
+    [
+      "abrupt",
+      "ani, sert",
+      "The meeting came to an abrupt end when the power went out.",
+      "Elektrikler kesilince toplantı ani bir şekilde sona erdi.",
+      "Abra (abrupt) kadabra! 'Ani'den bir tavşan çıktı."
+    ],
+    [
+      "hasty",
+      "acele, hızlı",
+      "He made a hasty decision without thinking about the consequences.",
+      "Sonuçlarını düşünmeden acele bir karar verdi.",
+      "Hasta (hasty) olunca 'acele' doktora gidilir."
+    ],
+    [
+      "urgent",
+      "acil",
+      "The patient needs urgent medical attention due to severe pain.",
+      "Hasta, şiddetli ağrı nedeniyle acil tıbbi yardıma ihtiyaç duyuyor.",
+      "Urcan (urgent) 'acil' yetiş!"
+    ],
+    [
+      "steady",
+      "istikrarlı, sabit",
+      "The patient's condition has remained steady throughout the night.",
+      "Hastanın durumu gece boyunca sabit kaldı.",
+      "Stadyum (steady-um) 'sabit' ve yerinden oynamaz."
+    ],
+    [
+      "stable",
+      "istikrarlı, dengeli",
+      "The economy needs a stable political environment to grow.",
+      "Ekonominin büyümesi için istikrarlı bir siyasi ortama ihtiyacı var.",
+      "Stabil (stable) - Durumu 'istikrarlı' gidiyor."
+    ],
+    [
+      "fixed",
+      "sabit, değişmez",
+      "The price of the product is fixed and cannot be negotiated.",
+      "Ürünün fiyatı sabittir ve pazarlık yapılamaz.",
+      "Fikstür (fix-ed) maçların 'sabit' zamanlarını gösterir."
+    ],
+    [
+      "constant",
+      "sürekli, sabit",
+      "The constant noise from the construction site made it hard to work.",
+      "İnşaat alanından gelen sürekli gürültü çalışmayı zorlaştırdı.",
+      "Konstan (Kantine) 'sürekli' giderdi."
+    ],
+    [
+      "persistent",
+      "ısrarcı, kalıcı",
+      "Despite persistent efforts, they couldn't solve the technical issue.",
+      "Israrlı çabalara rağmen teknik sorunu çözemediler.",
+      "Pes etmeyen (persist-ent) kişi 'ısrarcı'dır."
+    ],
+    [
+      "consistent",
+      "tutarlı",
+      "Her performance in the exams has been consistent throughout the year.",
+      "Sınavlardaki performansı yıl boyunca tutarlı oldu.",
+      "Konsis (Konuşması) 'tutarlı' biridir."
+    ],
+    [
+      "abundant",
+      "bol, çok miktarda",
+      "This region is known for its abundant natural resources.",
+      "Bu bölge bol doğal kaynaklarıyla tanınır.",
+      "Abun (Odun) o kadar 'bol' ki kışın üşümeyiz."
+    ],
+    [
+      "numerous",
+      "çok sayıda",
+      "Numerous studies have shown the benefits of regular exercise.",
+      "Çok sayıda çalışma düzenli egzersizin faydalarını göstermiştir.",
+      "Numara (numer-ous) 'çok sayıda' kişi tarafından alındı."
+    ],
+    [
+      "plentiful",
+      "bol, bereketli",
+      "The harvest was plentiful this year due to the good weather.",
+      "İyi hava koşulları nedeniyle bu yıl hasat boldu.",
+      "Plenty (bol) - Masada 'bol' meyve var."
+    ],
+    [
+      "ample",
+      "bol, kafi, geniş",
+      "There is ample evidence to support the theory of evolution.",
+      "Evrim teorisini desteklemek için bol miktarda kanıt vardır.",
+      "Ampul (ample) odaya 'bol' ışık verdi."
+    ],
+    [
+      "considerable",
+      "önemli ölçüde, epey",
+      "The project required a considerable amount of time and effort.",
+      "Proje, epey zaman ve çaba gerektirdi.",
+      "Consider (düşünmek) - Üzerinde düşünmeye değer, 'önemli ölçüde'."
+    ],
+    [
+      "substantial",
+      "kayda değer, önemli",
+      "A substantial number of employees were satisfied with the new policy.",
+      "Çalışanların önemli bir kısmı yeni politikadan memnundu.",
+      "Substant (öz) - İşin özü 'kayda değer' bir değişim olması."
+    ],
+    [
+      "noteworthy",
+      "dikkate değer",
+      "There are several noteworthy achievements in her professional career.",
+      "Mesleki kariyerinde dikkate değer birkaç başarı var.",
+      "Note (not) + worthy (değer) - 'Not almaya değer'."
+    ],
+    [
+      "remarkable",
+      "dikkat çekici, olağanüstü",
+      "The discovery of the new planet was a remarkable scientific achievement.",
+      "Yeni gezegenin keşfi olağanüstü bir bilimsel başarıydı.",
+      "Marka (remark-able) ürünler 'dikkat çekici'dir."
+    ],
+    [
+      "wonderful",
+      "harika, müthiş",
+      "We had a wonderful time at the seaside last weekend.",
+      "Geçen hafta sonu deniz kenarında harika vakit geçirdik.",
+      "Wonder Woman 'harika' bir kahramandır."
+    ],
+    [
+      "amazing",
+      "şaşırtıcı, hayranlık uyandırıcı",
+      "The view from the top of the mountain was absolutely amazing.",
+      "Dağın tepesinden manzara kesinlikle şaşırtıcıydı.",
+      "Amca (amaz-ing) o kadar 'şaşırtıcı' bir sihir yaptı ki."
+    ],
+    [
+      "brilliant",
+      "parlak, zekice",
+      "The young scientist came up with a brilliant solution to the problem.",
+      "Genç bilim insanı soruna zekice bir çözüm buldu.",
+      "Pırlanta (brilliant) gibi 'parlak' bir fikir."
+    ],
+    [
+      "fascinating",
+      "büyüleyici",
+      "The documentary provided a fascinating insight into ancient Egyptian life.",
+      "Belgesel, eski Mısır yaşamına büyüleyici bir bakış sağladı.",
+      "Fas-fıs (fascin-ating) sesleri arasında 'büyüleyici' bir hikaye."
+    ],
+    [
+      "magnificent",
+      "muhteşem, görkemli",
+      "The palace is famous for its magnificent architecture and gardens.",
+      "Saray, muhteşem mimarisi ve bahçeleriyle ünlüdür.",
+      "Magn (mıknatıs) gibi 'görkemli' yapısıyla herkesi çekti."
+    ],
+    [
+      "outstanding",
+      "seçkin, çok başarılı",
+      "She received an award for her outstanding contribution to medicine.",
+      "Tıbba yaptığı seçkin katkılardan dolayı ödül aldı.",
+      "Out (dışarıda) stand (durmak) - Diğerlerinin 'dışında/üstünde' başarı."
+    ],
+    [
+      "striking",
+      "çarpıcı, dikkat çekici",
+      "The contrast between the two paintings was quite striking.",
+      "İki tablo arasındaki kontrast oldukça çarpıcıydı.",
+      "Strike (vurmak) - Etkisiyle 'çarpıcı' bir iz bıraktı."
+    ],
+    [
+      "spectacular",
+      "göz alıcı, muhteşem",
+      "The fireworks display was a spectacular end to the festival.",
+      "Havai fişek gösterisi festivalin göz alıcı bir sonu oldu.",
+      "Spektak (Sepet) dolusu 'muhteşem' çiçek."
+    ],
+    [
+      "immediate",
+      "derhal, hemen",
+      "The situation required immediate action to prevent further damage.",
+      "Durum, daha fazla hasarı önlemek için derhal harekete geçilmesini gerektiriyordu.",
+      "İm (imza) atıldı, 'derhal' işe başlandı."
+    ],
+    [
+      "close",
+      "yakın",
+      "The two brothers have always been very close to each other.",
+      "İki kardeş birbirlerine her zaman çok yakın olmuşlardır.",
+      "Klozet (close-t) banyoya çok 'yakın'."
+    ],
+    [
+      "approaching",
+      "yaklaşan",
+      "The approaching deadline put a lot of pressure on the team.",
+      "Yaklaşan son teslim tarihi ekip üzerinde büyük bir baskı oluşturdu.",
+      "Ap-roç (Aperatif) yemeğe 'yaklaşan' zamanda yenir."
+    ],
+    [
+      "near",
+      "yakın",
+      "The hotel is located near the city center and the main train station.",
+      "Otel, şehir merkezine ve ana tren istasyonuna yakın bir konumdadır.",
+      "Nere (near-e) gidersen git, bana 'yakın' ol."
+    ]
+  ],
+  "ADJACTIVE_SET_2": [
+    [
+      "dangerous",
+      "tehlikeli",
+      "The accumulation of toxic waste poses a dangerous threat to local ecosystems.",
+      "Toksik atıkların birikmesi, yerel ekosistemler için tehlikeli bir tehdit oluşturmaktadır.",
+      "Danger (Tehlike) - Sonu 'ous' sıfat ekiyle biten, bilinen en temel kelime."
+    ],
+    [
+      "hazardous",
+      "tehlikeli, riskli",
+      "Working in chemical plants involves handling hazardous materials on a daily basis.",
+      "Kimya tesislerinde çalışmak, günlük olarak tehlikeli maddelerin taşınmasını içerir.",
+      "Hazard (Risk/Kaza) - 'Hazar' denizinde fırtınaya yakalanmak çok 'riskli' ve tehlikelidir."
+    ],
+    [
+      "harmful",
+      "zararlı",
+      "Excessive consumption of processed sugar has multiple harmful effects on the body.",
+      "İşlenmiş şekerin aşırı tüketiminin vücut üzerinde çok sayıda zararlı etkisi vardır.",
+      "Harm (Zarar) + ful (Dolu) - Kelime kökü 'harm' zarar vermek anlamına gelir."
+    ],
+    [
+      "detrimental",
+      "zararlı, yıkıcı",
+      "Lack of sleep can have a detrimental impact on a student's cognitive performance.",
+      "Uykusuzluk, bir öğrencinin bilişsel performansı üzerinde zararlı bir etkiye sahip olabilir.",
+      "De-Trient (Diyet) - Diyetini bozup 'mentalleri' (akıl sağlığını) yemek sağlığa 'zararlı'dır."
+    ],
+    [
+      "malignant",
+      "kötü huylu (tümör vb.), zararlı",
+      "The biopsy confirmed that the tumor was malignant and required immediate surgery.",
+      "Biyopsi, tümörün kötü huylu olduğunu ve derhal ameliyat gerektirdiğini doğruladı.",
+      "Mal (Kötü) - Latince 'mal-' kökü kötülük belirtir. Malign (Kötü niyetli/kötü huylu)."
+    ],
+    [
+      "harmless",
+      "zararsız",
+      "Most species of spiders found in this region are completely harmless to humans.",
+      "Bu bölgede bulunan çoğu örümcek türü insanlara tamamen zararsızdır.",
+      "Harm (Zarar) + less (Siz/Sız) - Zararı olmayan, temiz."
+    ],
+    [
+      "benign",
+      "iyi huylu, zararsız",
+      "The doctor reassured the patient that the cyst was benign and not cancerous.",
+      "Doktor, hastaya kistin iyi huylu ve kanserli olmadığını söyleyerek güvence verdi.",
+      "Benign (Ben iyi) - 'Ben iyi' huylu biriyim, kimseye zararım dokunmaz."
+    ],
+    [
+      "kind",
+      "nazik, kibar, iyi niyetli",
+      "It was very kind of the local authorities to provide free shelters during winter.",
+      "Yerel yetkililerin kış boyunca ücretsiz barınak sağlaması çok nazikçeydi.",
+      "Kind (Kayın) - 'Kayın' pederim bana karşı her zaman çok 'nazik' davrandı."
+    ],
+    [
+      "gentle",
+      "nazik, yumuşak, hafif",
+      "A gentle breeze from the ocean lowered the temperature during the hot afternoon.",
+      "Okyanustan esen hafif bir meltem, sıcak öğleden sonra sıcaklığı düşürdü.",
+      "Gentleman (Centilmen) - Centilmen erkekler 'nazik' ve kibar olur."
+    ],
+    [
+      "helpful",
+      "yardımsever, faydalı",
+      "The statistics provided in the report were highly helpful for our investigation.",
+      "Raporda sunulan istatistikler araştırmamız için son derece faydalı oldu.",
+      "Help (Yardım) + ful (Dolu) - Yardım etmeyi seven veya işe yarayan."
+    ],
+    [
+      "innocent",
+      "masum, suçsuz",
+      "The jury concluded that the suspect was innocent due to a lack of evidence.",
+      "Jüri, kanıt yetersizliğinden dolayı şüphelinin masum olduğuna karar verdi.",
+      "Ino-cent (İnleyen çocuk) - Mahkemede ağlayan o çocuk tamamen 'masum'du."
+    ],
+    [
+      "talented",
+      "yetenekli",
+      "The university supports talented musicians by offering full scholarships.",
+      "Üniversite, tam burslar sunarak yetenekli müzisyenleri desteklemektedir.",
+      "Talent (Yetenek) - Yarışma programı 'Got Talent' (Yetenek Sizsiniz) konseptinden gelir."
+    ],
+    [
+      "gifted",
+      "doğuştan yetenekli, üstün zekalı",
+      "Gifted children often require specialized educational programs to reach their potential.",
+      "Üstün zekalı çocukların potansiyellerine ulaşmaları için genellikle özel eğitim programları gerekir.",
+      "Gift (Hediye) - Tanrı tarafından kendisine yetenek 'hediye' edilmiş kişi."
+    ],
+    [
+      "skilful",
+      "becerikli, usta",
+      "The surgeon was highly skilful, completing the complex operation ahead of schedule.",
+      "Cerrah oldukça becerikliydi ve karmaşık ameliyatı planlanandan önce tamamladı.",
+      "Skill (Beceri) + ful (Dolu) - Becerisi tam, elinden her iş gelen usta."
+    ],
+    [
+      "capable",
+      "kabiliyetli, yapabilen",
+      "With proper training, she is capable of managing the entire international department.",
+      "Doğru bir eğitimle, tüm uluslararası departmanı yönetecek kabiliyete sahiptir.",
+      "Kapasite (Capacity) - Bir işi yapmaya kapasitesi, yani 'kabiliyeti' olan."
+    ],
+    [
+      "proficient",
+      "profesyonel, uzman, yetkin",
+      "Applicants must be proficient in at least two foreign languages for this position.",
+      "Adayların bu pozisyon için en az iki yabancı dilde yetkin olmaları gerekmektedir.",
+      "Profession (Meslek/Profesyonel) - İşinde tamamen 'uzmanlaşmış' kişi."
+    ],
+    [
+      "versatile",
+      "çok yönlü, hamarat",
+      "Graphene is a versatile material that can be used in electronics, medicine, and energy.",
+      "Grafen; elektronik, tıp ve enerjide kullanılabilen çok yönlü bir malzemedir.",
+      "Versiyon (Version) - Her versiyona uyum sağlayabilen, 'çok yönlü' ürün."
+    ],
+    [
+      "competent",
+      "yetkin, ehil, becerikli",
+      "The company is seeking a competent manager to oversee the new financial transition.",
+      "Şirket, yeni finansal geçişi denetlemek için yetkin bir müdür arıyor.",
+      "Compete (Rekabet etmek) - Rekabet edebilecek güçte ve 'yetkinlikte' olan kişi."
+    ],
+    [
+      "famous for",
+      "ile ünlü/meşhur",
+      "The region is famous for its historic architecture and vast vineyards.",
+      "Bölge, tarihi mimarisi ve geniş üzüm bağları ile ünlüdür.",
+      "Fame (Şöhret) - Şöhret sahibi, herkes tarafından bilinen."
+    ],
+    [
+      "notable for",
+      "ile tanınan, dikkate değer",
+      "The philosopher was notable for his radical views on social justice.",
+      "Filozof, sosyal adalet konusundaki radikal görüşleriyle tanınırdı.",
+      "Note (Not) - Not edilmeye değer, başarılarıyla göze çarpan."
+    ],
+    [
+      "well-known for",
+      "ile iyi bilinen/tanınan",
+      "Switzerland is well-known for its high-quality watches and stable banking system.",
+      "İsviçre, yüksek kaliteli saatleri ve istikrarlı bankacılık sistemiyle iyi bilinir.",
+      "Well (İyi) + Known (Bilinen) - Toplumca 'iyi bilinen' popüler şey."
+    ],
+    [
+      "prominent",
+      "seçkin, önde gelen, önemli",
+      "Several prominent scientists attended the international conference on biotechnology.",
+      "Biyoteknoloji konusundaki uluslararası konferansa önde gelen birkaç bilim insanı katıldı.",
+      "Premium - Premium sınıfa ait, toplumda 'önde gelen' seçkin şahsiyet."
+    ],
+    [
+      "distinguished",
+      "seçkin, ayırt edici, başarılı",
+      "He had a long and distinguished career as a diplomat in the United Nations.",
+      "Birleşmiş Milletler'de bir diplomat olarak uzun ve seçkin bir kariyere sahipti.",
+      "Distinguish (Ayırt etmek) - Diğer insanlardan başarılarıyla kolayca 'ayırt edilen' seçkin kişi."
+    ],
+    [
+      "eminent",
+      "saygın, seçkin, ünlü",
+      "The book features essays written by eminent scholars from across the globe.",
+      "Kitap, dünyanın dört bir yanından saygın akademisyenler tarafından yazılmış makaleleri içeriyor.",
+      "Emin (Emin olmak) - Bilgisinden emin olduğumuz 'saygın' profesör."
+    ],
+    [
+      "distinct",
+      "farklı, belirgin, net",
+      "There is a distinct possibility that inflation will continue to rise next quarter.",
+      "Önümüzdeki çeyrekte enflasyonun yükselmeye devam etmesi bariz bir olasılıktır.",
+      "Distinct (Disko) - Diskodaki ışıklar karanlıkta çok 'belirgin' ve 'farklı' görünür."
+    ],
+    [
+      "lucrative",
+      "karlı, kazançlı",
+      "Investing in renewable energy projects has proven to be a highly lucrative business.",
+      "Yenilenebilir enerji projelerine yatırım yapmanın son derece karlı bir iş olduğu kanıtlanmıştır.",
+      "Lucre (Cukka/Para) - 'Lüküs' hayat yaşatacak kadar çok para getiren, 'kazançlı' iş."
+    ],
+    [
+      "profitable",
+      "karlı, kazanç getiren",
+      "The company closed down its non-profitable branches to cut corporate expenses.",
+      "Şirket, kurumsal masrafları kısmak için karlı olmayan şubelerini kapattı.",
+      "Profit (Kar/Kazanç) - Şirkete yüksek oranda 'profit' getiren karlı yatırım."
+    ],
+    [
+      "gainful",
+      "kazançlı, faydalı",
+      "The government is trying to create more gainful employment opportunities for youth.",
+      "Hükümet, gençler için daha fazla kazançlı istihdam fırsatı yaratmaya çalışıyor.",
+      "Gain (Kazanmak/Kazanım) - Bize maddi veya manevi gelişim 'kazandıran' iş."
+    ],
+    [
+      "thriving",
+      "gelişen, büyüyen, başarılı",
+      "The tech start-up turned into a thriving global corporation within five years.",
+      "Teknoloji girişimi, beş yıl içinde büyüyen ve gelişen küresel bir şirkete dönüştü.",
+      "Drive (Sürmek) - İşleri sürekli ileriye doğru süren, 'hızla gelişen' esnaf."
+    ],
+    [
+      "flourishing",
+      "gelişen, parlayan, çiçek açan",
+      "Tourism is a flourishing industry that provides jobs to millions of people.",
+      "Turizm, milyonlarca insana iş sağlayan, hızla gelişen bir sektördür.",
+      "Flower (Çiçek) - Çiçek gibi açılan, işleri tıkırında gidip 'gelişen' işletme."
+    ],
+    [
+      "recurrent",
+      "tekrarlayan, nükseden",
+      "The patient suffered from recurrent headaches that resisted standard treatment.",
+      "Hasta, standart tedaviye direnen tekrarlayan baş ağrılarından muzdaripti.",
+      "Current (Mevcut/Akıntı) - Re (Yeniden) + Current = Sürekli yeniden akıntıya kapılan, 'tekrarlayan'."
+    ],
+    [
+      "repeated",
+      "tekrarlanan",
+      "Despite repeated warnings, the factory continued to discharge waste into the river.",
+      "Tekrarlanan uyarılara rağmen fabrika nehre atık boşaltmaya devam etti.",
+      "Repeat (Tekrar etmek) - Defalarca üst üste yapılmış, yinelenmiş."
+    ],
+    [
+      "ongoing",
+      "devam eden, süregelen",
+      "The ongoing negotiations between the two nations are expected to end soon.",
+      "İki ulus arasında devam eden müzakerelerin yakında sona ermesi bekleniyor.",
+      "On (Açık) + Going (Gidiş) - Süreç hala açık ve 'devam ediyor'."
+    ],
+    [
+      "continuous",
+      "kesintisiz, sürekli",
+      "The continuous rain caused severe flooding in the low-lying agricultural areas.",
+      "Kesintisiz yağmur, alçakta kalan tarım alanlarında ciddi sellere neden oldu.",
+      "Continue (Devam etmek) - Hiç durmadan, sürekli aralıksız devam eden."
+    ],
+    [
+      "uninterrupted",
+      "kesintisiz, aralıksız",
+      "The hospital relies on generators to ensure an uninterrupted supply of electricity.",
+      "Hastane, kesintisiz bir elektrik kaynağı sağlamak için jeneratörlere güvenmektedir.",
+      "Interrupt (Yarıda kesmek) - Un (Olumsuz) + Interrupt = Araya hiçbir şey girmemiş, 'kesintisiz'."
+    ],
+    [
+      "little",
+      "az, küçük",
+      "There is little hope left that the missing hikers will be found alive.",
+      "Kayıp yürüyüşçülerin canlı bulunacağına dair çok az umut kaldı.",
+      "Little (Litre) - Şişenin dibinde sadece bir 'litre'cik 'az' su kaldı."
+    ],
+    [
+      "few",
+      "az, birkaç (sayılabilen)",
+      "Very few historical documents from that specific era have survived to this day.",
+      "O belirli döneme ait çok az tarihi belge günümüze kadar ulaşabilmiştir.",
+      "Few (Fevç) - Fevç fevç geldiler ama sayıca 'az' kişi kaldılar."
+    ],
+    [
+      "small",
+      "küçük, ufak",
+      "A small error in the code caused the entire software system to crash.",
+      "Koddaki küçük bir hata tüm yazılım sisteminin çökmesine neden oldu.",
+      "Small (Small beden) - Tişört alırken 'S' yani en 'küçük' bedeni seçti."
+    ],
+    [
+      "tiny",
+      "minicik, çok küçük",
+      "Microscopes are essential instruments used to observe tiny microorganisms.",
+      "Mikroskoplar, minicik mikroorganizmaları gözlemlemek için kullanılan temel araçlardır.",
+      "Tane - Toz 'tane'leri gözle görülemeyecek kadar 'minicik'tir."
+    ],
+    [
+      "meagre",
+      "kıt, yetersiz, az",
+      "The refugees had to survive on a meagre ration of water and bread for weeks.",
+      "Mülteciler haftalarca kıt bir su ve ekmek istihkakıyla hayatta kalmak zorunda kaldı.",
+      "Meğer - 'Meğer' ambarımızdaki tüm buğday stokları ne kadar da 'kıt'mış."
+    ],
+    [
+      "minor",
+      "küçük, önemsiz, ikincil",
+      "The pilot managed to land the plane safely despite a minor mechanical failure.",
+      "Pilot, küçük bir mekanik arızaya rağmen uçağı güvenli bir şekilde indirmeyi başardı.",
+      "Minör (Müzik) - Majör büyük ve baskınken, minör daha 'küçük' ve hüzünlüdür."
+    ],
+    [
+      "slight",
+      "hafif, azıcık, önemsiz",
+      "There was a slight misunderstanding regarding the schedule of the final exam.",
+      "Final sınavının takvimiyle ilgili hafif bir yanlış anlaşılma oldu.",
+      "Slayt - Sunumdaki 'slayt' üzerinde 'hafif/azıcık' bir değişiklik yaptık."
+    ],
+    [
+      "trivial",
+      "önemsiz, kayda değmez, ıvır zıvır",
+      "We shouldn't waste our precious time arguing over such trivial matters.",
+      "Böylesine önemsiz meseleler üzerinde tartışarak değerli vaktimizi boşa harcamamalıyız.",
+      "Trivia - Genel kültür yarışmalarındaki 'ıvır zıvır/önemsiz' ama eğlenceli bilgiler."
+    ],
+    [
+      "insignificant",
+      "önemsiz, değersiz",
+      "The difference in output between the two production lines was completely insignificant.",
+      "İki üretim hattı arasındaki çıktı farkı tamamen önemsizdi.",
+      "Significant (Önemli) + In (Değil) - Önemli olmayan, 'göz ardı edilebilir'."
+    ],
+    [
+      "unimportant",
+      "önemli olmayan",
+      "In the grand scheme of things, this minor delay is relatively unimportant.",
+      "Büyük resme bakıldığında, bu küçük gecikme nispeten önemli değildir.",
+      "Important (Önemli) + Un (Değil) - Gündem maddesi dışı kalan sıradan olay."
+    ],
+    [
+      "negligible",
+      "ihmal edilebilir, çok az",
+      "The environmental risks associated with the new factory were deemed negligible.",
+      "Yeni fabrikayla ilgili çevresel riskler ihmal edilebilir düzeyde görüldür.",
+      "Neglect (İhmal etmek) - İhmal etsen de hiçbir şeyin değişmeyeceği kadar 'az' miktar."
+    ],
+    [
+      "valuable",
+      "değerli, kıymetli",
+      "The museum displays valuable artifacts from the ancient Roman civilization.",
+      "Müze, eski Roma medeniyetine ait değerli eserleri sergiliyor.",
+      "Value (Değer) - Maddi veya manevi yüksek 'değer' taşıyan nesne."
+    ],
+    [
+      "invaluable",
+      "paha biçilemez derecede değerli",
+      "Her advice on international trade laws proved to be invaluable to our legal firm.",
+      "Uluslararası ticaret hukuku konusundaki tavsiyeleri hukuk firmamız için paha biçilemez oldu.",
+      "In (Sınır yok) + Valuable = Değer biçme sınırlarının ötesinde, 'çok kıymetli'."
+    ],
+    [
+      "precious",
+      "kıymetli, nadide",
+      "Diamonds and rubies are classified as precious stones due to their rarity.",
+      "Elmaslar ve yakutlar, nadirlikleri nedeniyle kıymetli taşlar olarak sınıflandırılır.",
+      "Precious (My Precious) - Yüzüklerin Efendisi'ndeki Gollum'un 'kıymetlimisss' repliği."
+    ],
+    [
+      "priceless",
+      "paha biçilemez",
+      "The historical paintings preserved in the national gallery are absolutely priceless.",
+      "Ulusal galeride korunan tarihi tablolar kesinlikle paha biçilemez.",
+      "Price (Fiyat) + less (Sız) - Parayla satın alınamayacak kadar 'eşsiz'."
+    ],
+    [
+      "irreplaceable",
+      "yeri doldurulamaz, benzersiz",
+      "The damage to the ancient archives caused an irreplaceable loss to human history.",
+      "Antik arşivlerin zarar görmesi, insanlık tarihi için yeri doldurulamaz bir kayba neden oldu.",
+      "Replace (Yerine yenisini koymak) - Ir (Olumsuz) + Replaceable = Dünyada 'ikincisi olmayan'."
+    ],
+    [
+      "notorious for",
+      "adı çıkmış, kötü şöhretli",
+      "The criminal organization was notorious for its sophisticated smuggling operations.",
+      "Suç örgütü, karmaşık kaçakçılık faaliyetleriyle kötü bir şöhrete sahipti.",
+      "Noter - Sadece 'kötü olayları' ve suçluların sicilini tasdikleyen hayali bir 'noter' düşün."
+    ],
+    [
+      "infamous for",
+      "kötü ünlü/şöhretli",
+      "The pirate captain was infamous for his cruelty toward captured crews.",
+      "Korsan kaptanı, esir alınan mürettebata karşı acımasızlığıyla kötü bir üne sahipti.",
+      "Famous (Ünlü) + In (Zıtlık) - İyi bir şeyle değil, yaptığı rezilliklerle 'kötü tanınan'."
+    ]
+  ],
+  "ADJACTIVE_SET_3": [
+    [
+      "wealthy",
+      "zengin, varlıklı",
+      "The government introduced new tax reforms targeting wealthy individuals and large corporations.",
+      "Hükümet, varlıklı bireyleri ve büyük şirketleri hedef alan yeni vergi reformları getirdi.",
+      "Wealth (Servet) - Kökü olan 'wealth' servet ve refah anlamına gelir."
+    ],
+    [
+      "rich",
+      "zengin",
+      "The region is rich in natural resources, particularly natural gas and iron ore.",
+      "Bölge, başta doğal gaz ve demir cevheri olmak üzere doğal kaynaklar bakımından zengindir.",
+      ""
+    ],
+    [
+      "prosperous",
+      "gelişen, refah içinde, zengin",
+      "A stable political environment is essential for building a prosperous society.",
+      "Refah içinde bir toplum inşa etmek için istikrarlı bir siyasi ortam şarttır.",
+      "Pronto + Para - 'Profesyonel'ce yönetilen işler şirketi 'refah içinde' ve zengin yapar."
+    ],
+    [
+      "affluent",
+      "zengin, varlıklı, nüfuzlu",
+      "Many affluent families prefer to send their children to private international schools.",
+      "Birçok varlıklı aile, çocuklarını özel uluslararası okullara göndermeyi tercih ediyor.",
+      "Afili (Afflu-ent) - 'Afili' ve lüks bir hayat yaşayan 'zengin' insanlar."
+    ],
+    [
+      "fast",
+      "hızlı, çabuk",
+      "The internet has enabled the fast dissemination of information across the globe.",
+      "İnternet, bilginin dünya çapında hızlı bir şekilde yayılmasını sağladı.",
+      "Fast food - Sipariş verdiğinde 'hızlı' ve çabuk hazırlanan yiyecek tarzı."
+    ],
+    [
+      "quick",
+      "hızlı, çabuk",
+      "The economic analyst made a quick assessment of the market crash.",
+      "Ekonomik analist, piyasa çöküşünün hızlı bir değerlendirmesini yaptı.",
+      "Quick (Kuvvetli) - Kuvvetli ve 'hızlı' adımlarla yürüyen atlet."
+    ],
+    [
+      "rapid",
+      "hızlı, ani",
+      "The rapid growth of the tech industry has created thousands of new job opportunities.",
+      "Teknoloji sektörünün hızlı büyümesi binlerce yeni iş fırsatı yarattı.",
+      "Raptiye - Kağıdı panoya 'hızlıca' ve çabucak tutturmaya yarayan araç."
+    ],
+    [
+      "prompt",
+      "hızlı, anında, dakik",
+      "The emergency services received praise for their prompt response to the accident.",
+      "Acil servisler, kazaya verdikleri hızlı yanıttan dolayı övgü aldı.",
+      "Program - Bilgisayar 'program'ı komut verdiğinde 'anında/hızlıca' çalışır."
+    ],
+    [
+      "instant",
+      "anlık, hemen olan",
+      "Social media platforms provide instant communication between users worldwide.",
+      "Sosyal medya platformları, dünya çapındaki kullanıcılar arasında anlık iletişim sağlar.",
+      "Instant kahve - Sıcak suyu dökünce 'anında' hazır olan hazır kahve."
+    ],
+    [
+      "various",
+      "çeşitli, türlü türlü",
+      "The scientists analyzed the data using various statistical methods.",
+      "Bilim insanları, verileri çeşitli istatistiksel yöntemler kullanarak analiz ettiler.",
+      "Varyasyon (Variation) - Bir ürünün farklı 'varyasyon'ları, yani 'çeşitli' halleri."
+    ],
+    [
+      "diverse",
+      "çeşitli, farklı, çok sesli",
+      "A diverse workforce brings innovative ideas and different perspectives to the company.",
+      "Çeşitlilik gösteren (farklı) bir iş gücü, şirkete yenilikçi fikirler ve farklı bakış açıları getirir.",
+      "Dizi (Di-verse) - Bir 'dizi' farklı ve 'çeşitli' karakterin bir araya gelmesi."
+    ],
+    [
+      "separate",
+      "ayrı, bağımsız",
+      "The two departments operate in separate buildings located on opposite sides of the city.",
+      "İki departman, şehrin zıt taraflarında bulunan ayrı binalarda faaliyet göstermektedir.",
+      "Sepet (Separ-ate) - Çürük elmaları sağlamlardan 'ayrı' bir 'sepet'e koymak."
+    ],
+    [
+      "different",
+      "farklı",
+      "The researchers compared two different treatment methods for the disease.",
+      "Araştırmacılar, hastalık için iki farklı tedavi yöntemini karşılaştırdı.",
+      "Differ (Farklı olmak) - Fiil kökü 'differ' ayrışmak, farklılaşmak anlamına gelir."
+    ],
+    [
+      "versatile",
+      "çok yönlü, değişken",
+      "The iPad has proven to be a versatile tool for both students and professionals.",
+      "iPad'in hem öğrenciler hem de profesyoneller için çok yönlü bir araç olduğu kanıtlanmıştır.",
+      "Versiyon (Version) - Her 'versiyon'a ayak uydurabilen, 'çok yönlü' yetenek."
+    ],
+    [
+      "novel",
+      "yeni, özgün, alışılmadık",
+      "The company developed a novel approach to water purification using nanotechnology.",
+      "Şirket, nanoteknoloji kullanarak su arıtmaya yönelik yeni ve özgün bir yaklaşım geliştirdi.",
+      "Novel (Roman) - Roman yazarları her zaman 'yeni' ve 'özgün' konular arar."
+    ],
+    [
+      "innovative",
+      "yenilikçi, inovatif",
+      "Innovative technologies are crucial for reducing carbon emissions in heavy industries.",
+      "Ağır sanayide karbon emisyonlarını azaltmak için yenilikçi teknolojiler çok önemlidir.",
+      "İnovasyon (Innovation) - Sektöre 'yenilik' getiren projeler."
+    ],
+    [
+      "new",
+      "yeni",
+      "The museum opened a new exhibition showcasing modern digital art.",
+      "Müze, modern dijital sanatı sergileyen yeni bir sergi açtı.",
+      ""
+    ],
+    [
+      "fresh",
+      "taze, yeni, yeni mezun/başlamış",
+      "The committee is looking for candidates with fresh perspectives on social policy.",
+      "Komite, sosyal politika konusunda yeni bakış açılarına sahip adaylar arıyor.",
+      "Fresh (Taze) - İngilizce'deki 'fresh graduate' (yeni mezun) kalıbından hatırlanabilir."
+    ],
+    [
+      "latest",
+      "en son, en yeni",
+      "According to the latest reports, the economic growth has slowed down significantly.",
+      "En son raporlara göre, ekonomik büyüme önemli ölçüde yavaşladı.",
+      "Late (Geç) - En geç gelen şey, doğal olarak 'en son/en yeni' olandır."
+    ],
+    [
+      "harmful",
+      "zararlı",
+      "The ozone layer protects the Earth from harmful ultraviolet radiation.",
+      "Ozon tabakası, Dünya'yı zararlı ultraviyole radyasyondan korur.",
+      "Harm (Zarar) + ful (Dolu) - İçi tamamen zarar verme dürtüsüyle dolu olan."
+    ],
+    [
+      "damaging",
+      "zarar verici, yıkıcı",
+      "The scandal had a damaging effect on the politician's reputation.",
+      "Skandalın, politikacının itibarı üzerinde zarar verici bir etkisi oldu.",
+      "Damage (Hasar/Zarar) - Bilgisayara veya arabaya 'hasar' veren durum."
+    ],
+    [
+      "adverse",
+      "olumsuz, zıt, ters",
+      "The drug was withdrawn from the market due to its severe adverse side effects.",
+      "İlaç, ciddi olumsuz yan etkileri nedeniyle piyasadan çekildi.",
+      "Ad-Verse (Zıt ayet/Zıt mısra) - İşlerin 'ters' ve 'olumsuz' gitmesi."
+    ],
+    [
+      "detrimental",
+      "zararlı, yıkıcı",
+      "Constant stress can be highly detrimental to both physical and mental health.",
+      "Sürekli stres hem fiziksel hem de zihinsel sağlık için son derece zararlı olabilir.",
+      "Diyet-Mental - Diyetini bozup 'mental' (akıl) sağlığını tehlikeye atmak 'zararlı'dır."
+    ],
+    [
+      "destructive",
+      "yıkıcı, tahrip edici",
+      "The economic crisis had a destructive impact on small businesses across the country.",
+      "Ekonomik kriz, ülke genelindeki küçük işletmeler üzerinde yıkıcı bir etki yarattı.",
+      "Destroy (Yıkmak/Yok etmek) - Bir binayı tamamen 'yok eden' güç."
+    ],
+    [
+      "devastating",
+      "yıkıcı, kahredici",
+      "The earthquake caused devastating damage to the historic structure of the city.",
+      "Deprem, şehrin tarihi yapısında yıkıcı hasara yol açtı.",
+      "Dev-Asa (Devastat-ing) - 'Devasa' bir gücün ortalığı 'yerle bir etmesi/yıkması'."
+    ],
+    [
+      "deep",
+      "derin",
+      "The oceans hold deep mysteries that scientists are still trying to uncover.",
+      "Okyanuslar, bilim insanlarının hala çözmeye çalıştığı derin gizemler barındırır.",
+      "Dip (Deep) - Türkçe'deki 'dip' kelimesiyle ses olarak benzer, 'en dipteki/derin'."
+    ],
+    [
+      "bottomless",
+      "dipsiz, sonsuz",
+      "The financial black hole seemed bottomless, consuming all investment capital.",
+      "Finansal kara delik, tüm yatırım sermayesini yutarak dipsiz göründü.",
+      "Bottom (Dip) + less (Siz) - Dibi olmayan, 'dipsiz' kuyu."
+    ],
+    [
+      "profound",
+      "derin, köklü (etki/bilgi)",
+      "The invention of the printing press had a profound impact on human history.",
+      "Matbaanın icadı insanlık tarihi üzerinde derin (köklü) bir etki yarattı.",
+      "Profesör - Bir konuyu 'profesör' düzeyinde 'derinlemesine' bilmek."
+    ],
+    [
+      "neutral",
+      "tarafsız, nötr",
+      "Switzerland remained neutral during both of the major global conflicts.",
+      "İsviçre, her iki büyük küresel çatışmada da tarafsız kaldı.",
+      "Nötr (Türkçeyle aynı) - Elektrikteki 'nötr' gibi, ne artı ne eksi, yani 'tarafsız'."
+    ],
+    [
+      "impartial",
+      "tarafsız, adil",
+      "A judge must remain completely impartial throughout the judicial process.",
+      "Bir yargıç, yargı süreci boyunca tamamen tarafsız kalmalıdır.",
+      "Part (Taraf/Kısım) - Im (Olumsuz) + Part = Bir 'taraf' tutmayan, 'adil' kişi."
+    ],
+    [
+      "unbiased",
+      "tarafsız, ön yargısız",
+      "Journalists are expected to provide unbiased reporting on political events.",
+      "Gazetecilerin siyasi olaylar hakkında tarafsız habercilik yapması beklenir.",
+      "Bias (Ön yargı) - Un (Olumsuz) + Bias = Kafasında hiçbir 'ön yargı/taraf' olmayan."
+    ],
+    [
+      "unprejudiced",
+      "ön yargısız, tarafsız",
+      "An unprejudiced evaluation is necessary to select the best project proposal.",
+      "En iyi proje teklifini seçmek için ön yargısız bir değerlendirme gereklidir.",
+      "Prejudice (Ön yargı) - Un (Olumsuz) + Pre-judice = Peşin hüküm vermeyen, 'tarafsız'."
+    ],
+    [
+      "objective",
+      "nesnel, tarafsız, objektif",
+      "Scientific research must rely on objective data rather than personal opinions.",
+      "Bilimsel araştırma, kişisel görüşlerden ziyade nesnel verilere dayanmalıdır.",
+      "Objektif (Türkçeyle aynı) - Kameranın 'objektif'i gerçeği olduğu gibi, 'tarafsız' çeker."
+    ],
+    [
+      "fair",
+      "adil, hakkaniyetli",
+      "The committee ensured a fair distribution of funds among all departments.",
+      "Komite, fonların tüm departmanlar arasında adil bir şekilde dağıtılmasını sağladı.",
+      "Fair-play - Spor müsabakalarında 'dürüst' ve 'adil' oyun ruhu."
+    ],
+    [
+      "indifferent to",
+      "kayıtsız, ilgisiz",
+      "The corporation was indifferent to public concerns about environmental pollution.",
+      "Şirket, çevre kirliliği konusundaki halkın endişelerine karşı kayıtsızdı.",
+      "Different (Farklı) - In (Olumsuz) + Different = Onun için hiçbir şey fark etmiyor, çünkü 'ilgisiz'."
+    ],
+    [
+      "overlooking",
+      "göz ardı eden, tepeden bakan",
+      "Overlooking small mistakes in the initial phase can lead to major failures later.",
+      "İlk aşamada küçük hataları göz ardı etmek, daha sonra büyük başarısızlıklara yol açabilir.",
+      "Over (Üstünden) + Looking (Bakmak) - Hataların üstünden bakıp geçmek, yani 'göz ardı etmek'."
+    ],
+    [
+      "neglecting",
+      "ihmal eden, umursamayan",
+      "Neglecting regular maintenance can drastically shorten the lifespan of industrial machinery.",
+      "Düzenli bakımı ihmal etmek, endüstriyel makinelerin ömrünü büyük ölçüde kısaltabilir.",
+      "Neglect (İhmal etmek) - Bir işi yapmayı sürekli erteleyip 'ihmal etmek'."
+    ],
+    [
+      "unconcerned",
+      "ilgisiz, gamsız, endişesiz",
+      "He seemed completely unconcerned about the upcoming job interview.",
+      "Yaklaşan iş görüşmesi hakkında tamamen endişesiz (ilgisiz) görünüyordu.",
+      "Concern (Endişe/İlgi) - Un (Olumsuz) + Concern = Hiçbir şeyi dert etmeyen, 'ilgisiz/gamsız'."
+    ],
+    [
+      "insensitive to",
+      "duyarsız, hissiz",
+      "The management was criticized for being insensitive to the needs of the workers.",
+      "Yönetim, işçilerin ihtiyaçlarına karşı duyarsız olduğu için eleştirildi.",
+      "Sensitive (Hassas) - In (Olumsuz) + Sensitive = Hassas olmayan, 'duyarsız/hissiz'."
+    ],
+    [
+      "unprecedented",
+      "eşi benzeri görülmemiş",
+      "The rise in global temperatures is occurring at an unprecedented rate.",
+      "Küresel sıcaklıklardaki artış, eşi benzeri görülmemiş bir hızla gerçekleşiyor.",
+      "Precedent (Emsal/Örnek) - Un (Olumsuz) + Precedent = Tarihte hiç emsali, 'eşi benzeri olmamış'."
+    ],
+    [
+      "unique",
+      "benzersiz, tek, özgün",
+      "Each snowflake has a unique pattern that distinguishes it from all others.",
+      "Her kar tanesi, onu diğerlerinden ayıran benzersiz bir desene sahiptir.",
+      "Uni (Tek) - 'Üniversite' veya 'Üniforma' gibi tek tip/tek ve 'benzersiz' olan."
+    ],
+    [
+      "unparalleled",
+      "paralelsiz, eşsiz, rakipsiz",
+      "The ancient empire possessed unparalleled military power in the region.",
+      "Antik imparatorluk, bölgede eşsiz (paralelsiz) bir askeri güce sahipti.",
+      "Parallel (Paralel) - Un (Olumsuz) + Parallel = Yanına koyulabilecek bir paraleli, yani dengi olmayan 'eşsiz'."
+    ],
+    [
+      "matchless",
+      "eşsiz, rakipsiz",
+      "The museum displays jewelry crafted with matchless skill from the Ottoman era.",
+      "Müze, Osmanlı döneminden eşsiz bir ustalıkla işlenmiş takıları sergiliyor.",
+      "Match (Eşleşmek) + less (Siz) - Hiç kimseyle eşleşemeyecek kadar 'rakipsiz/eşsiz'."
+    ],
+    [
+      "careful",
+      "dikkatli",
+      "A careful analysis of the historical artifacts revealed their true origin.",
+      "Tarihi eserlerin dikkatli bir analizi, onların gerçek kökenini ortaya çıkardı.",
+      "Care (Önem/Bakım) + ful (Dolu) - İşine büyük önem ve 'dikkat' gösteren."
+    ],
+    [
+      "cautious",
+      "tedbirli, temkinli",
+      "Investors are cautious about putting money into volatile emerging markets.",
+      "Yatırımcılar, istikrarsız gelişmekte olan piyasalara para yatırma konusunda temkinlidir.",
+      "Caution (Tehlike/Dikkat) - Sarı 'Caution' şeritlerini görünce 'temkinli' davranmak."
+    ],
+    [
+      "watchful",
+      "uyanık, tetikte, gözünü dört açan",
+      "The security guards kept a watchful eye on the main entrance during the event.",
+      "Güvenlik görevlileri, etkinlik boyunca ana girişi dikkatle (tetikte) izledi.",
+      "Watch (İzlemek/Bakmak) + ful (Dolu) - Gözünü kırpmadan sürekli 'tetikte' izleyen."
+    ],
+    [
+      "alert",
+      "tetikte, uyanık, hazır",
+      "Pilots must remain alert at all times, especially during takeoff and landing.",
+      "Pilotlar, özellikle kalkış ve iniş sırasında her zaman tetikte olmalıdır.",
+      "Alarm - Telefonda 'alarm' çalınca aniden 'uyanık' ve tetikte olursun."
+    ],
+    [
+      "meticulous",
+      "titiz, kılı kırk yaran",
+      "The researcher was meticulous in documenting every step of the laboratory experiment.",
+      "Araştırmacı, laboratuvar deneyinin her adımını belgelemede titizdi.",
+      "Metik (Matematik) - Matematiksel işlemler yaparken çok 'titiz' ve dikkatli olmak gerekir."
+    ],
+    [
+      "temporary",
+      "geçici, kalıcı olmayan",
+      "The closure of the bridge is only temporary while construction is being completed.",
+      "Köprünün kapatılması, inşaat tamamlanırken sadece geçicidir.",
+      "Tempo - Belirli bir 'tempo' ile yapılan işler sonsuza kadar sürmez, 'geçici'dir."
+    ],
+    [
+      "momentary",
+      "anlık, geçici",
+      "A momentary lapse in concentration caused the athlete to lose the race.",
+      "Konsantrasyondaki anlık bir kayıp, atletin yarışı kaybetmesine neden oldu.",
+      "Moment (An) - Sadece bir 'an' süren, anlık ve 'geçici' durum."
+    ],
+    [
+      "brief",
+      "kısa, öz",
+      "The prime minister made a brief statement before entering the parliament building.",
+      "Başbakan, parlamento binasına girmeden önce kısa bir açıklama yaptı.",
+      "Briefing (Brifing) - Askeriyede veya şirketlerde verilen 'kısa' ve öz bilgilendirme toplantısı."
+    ],
+    [
+      "interim",
+      "geçici, ara (dönem/hükümet)",
+      "An interim manager was appointed until a permanent CEO could be found.",
+      "Kalıcı bir CEO bulunana kadar geçici bir müdür atandı.",
+      "Terim (In-terim) - Bir futbol 'terim'i olarak teknik direktörün 'ara dönem'de gelmesi."
+    ],
+    [
+      "disposable",
+      "tek kullanımlık, gözden çıkarılabilir",
+      "The use of disposable plastics has contributed significantly to ocean pollution.",
+      "Tek kullanımlık plastiklerin kullanımı, okyanus kirliliğine önemli ölçüde katkıda bulunmuştur.",
+      "Dispose (Atmak) - Kullandıktan sonra çöpe 'atılabilen', tek kullanımlık eşya."
+    ]
+  ]
+}
