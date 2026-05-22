@@ -1454,7 +1454,9 @@ function SettingsScreen({ user, lang, onLangChange, onUserUpdate, onLogout, onSw
   };
 
   const loadUsers = () => dAll("users").then(setUsers);
-  useEffect(()=>{ if(user.isAdmin) loadUsers(); },[]);
+  useEffect(() => {
+  if (user.isAdmin) loadUsers();
+}, [user]);
 
   const saveGoal = async () => {
     const updated = {...user, dailyGoal:goal};
