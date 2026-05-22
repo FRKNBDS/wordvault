@@ -538,14 +538,16 @@ export default function App() {
   const toastRef = useRef(null);
 
   useEffect(() => {
-    const wordData = await fetchWordData();
-    initDB(wordData).then(() => {
-      setReady(true);
-      const saved = localStorage.getItem("wv_uid");
-      if (saved) {
-        dGet("users", parseInt(saved)).then(u => { if (u) setUser(u); });
-      }
-    });
+    async function loadData() {
+      const wordData = await fetchWordData();
+      initDB(wordData).then(() => {
+        setReady(true);
+        const saved = localStorage.getItem("wv_uid");
+        if (saved) {
+          dGet("users", parseInt(saved)).then(u => { if (u) setUser(u); });
+       }
+      });
+     },
   }, []);
 
   const loadAllUsers = useCallback(() => {
