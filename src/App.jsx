@@ -1680,7 +1680,17 @@ function AdminScreen({ user, lang, showToast }) {
 
   const loadLevels = async () => { const l=await dAll("levels"); setLevels(l.sort((a,b)=>(a.orderIndex||0)-(b.orderIndex||0))); };
   const loadSets   = async (lid)=> { const s=await dIdx("wordsets","levelId",lid); setSets(s.sort((a,b)=>(a.orderIndex||0)-(b.orderIndex||0))); };
-  const loadWords  = async (sid)=> { const w=await dIdx("words","wordSetId",sid); setWords(w.sort((a,b)=>(a.orderIndex||0)-(b.orderIndex||0))); };
+ const loadWords = async (sid) => {
+  const { data, error } = await supabase
+    .from("words")
+    .select("*")
+    .eq("wordSetId", sid)
+    .order("orderIndex", { ascending: true });
+
+  if (!error && data) {
+    setWords(data);
+  }
+};
   const loadAllWords = async () => { const w=await dAll("words"); setAllWords(w); };
 
   useEffect(()=>{loadLevels();loadAllWords();},[]);
@@ -1731,7 +1741,10 @@ function AdminScreen({ user, lang, showToast }) {
                   <div className="word-item-tr">{word.turkish}</div>
                 </div>
                 <button style={{background:"none",border:"none",color:"var(--g2)",fontSize:15,cursor:"pointer",padding:"2px 5px"}} onClick={()=>{setEditWord(word);setModal("editWord");}}>✏️</button>
-                <button className="del-btn" onClick={async()=>{await dDel("words",word.id);doSearch(searchQ);loadAllWords();}}>🗑</button>
+                <button className="del-btn" onClick={async()=>{await supabase
+  .from("words")
+  .delete()
+  .eq("id", word.id);}}>🗑</button>
               </div>
             ))}
           </>
@@ -1823,7 +1836,14 @@ function AddWordModal({lang,setId,orderIndex,onClose,onSaved,checkDuplicate}){
     if(!f.english||!f.turkish){setErr(lang==="en"?"English and Turkish are required.":"İngilizce ve Türkçe zorunlu.");return;}
     const dup=await checkDuplicate(f.english);
     if(dup){setErr(lang==="en"?"This word already exists in this set.":"Bu kelime bu sette zaten var.");return;}
-    await dAdd("words",{...f,wordSetId:setId,orderIndex,addedAt:Date.now()});
+    await supabase
+  .from("words")
+  .insert([{
+    ...f,
+    wordSetId:setId,
+    orderIndex,
+    addedAt:Date.now()
+  }]);
     onSaved();
     setF({english:"",turkish:"",ydsExampleSentence:"",ydsExampleTranslation:"",mnemonicTip:""});
     setErr("");
@@ -1840,10 +1860,10 @@ function AddWordModal({lang,setId,orderIndex,onClose,onSaved,checkDuplicate}){
 
 function EditWordModal({lang,word,onClose,onSaved}){
   const [f,setF]=useState({english:word.english,turkish:word.turkish,ydsExampleSentence:word.ydsExampleSentence||"",ydsExampleTranslation:word.ydsExampleTranslation||"",mnemonicTip:word.mnemonicTip||""});
-  const save=async()=>{
-    await dPut("words",{...word,...f});
-    onSaved();onClose();
-  };
+  await supabase
+  .from("words")
+  .update({...f})
+  .eq("id", word.id);
   return <Modal lang={lang} title={lang==="en"?"EDIT WORD":"KELİMEYİ DÜZENLE"} onClose={onClose} onConfirm={save} confirmLabel={lang==="en"?"Update":"Güncelle"}>
     <input className="mi" placeholder="English" value={f.english} onChange={e=>setF({...f,english:e.target.value})}/>
     <input className="mi" placeholder={lang==="en"?"Turkish":"Türkçe"} value={f.turkish} onChange={e=>setF({...f,turkish:e.target.value})}/>
@@ -1855,25 +1875,70 @@ function EditWordModal({lang,word,onClose,onSaved}){
 
 function ImportModal({lang,set,onClose,onDone,showToast}){
   const [result,setResult]=useState(null);
-  const doImport=async(text,isJson)=>{
-    try{
-      let rows=[];
-      if(isJson){const arr=JSON.parse(text);rows=arr.map(w=>([w.english||"",w.turkish||"",w.ydsExample||"",w.ydsTranslation||"",w.mnemonic||""]));}
-      else{const lines=text.trim().split("\n");const start=lines[0].toLowerCase().startsWith("english")?1:0;rows=lines.slice(start).map(l=>l.split(",").map(c=>c.trim().replace(/^"|"$/g,"")));}
-      const existing=await dIdx("words","wordSetId",set.id);
-      const existSet=new Set(existing.map(w=>w.english.toLowerCase()));
-      let added=0,skipped=0;
-      for(let i=0;i<rows.length;i++){
-        const [en,tr,yds,ydsT,mn]=rows[i];
-        if(!en||!tr)continue;
-        if(existSet.has(en.toLowerCase())){skipped++;continue;}
-        await dAdd("words",{wordSetId:set.id,english:en,turkish:tr,ydsExampleSentence:yds||"",ydsExampleTranslation:ydsT||"",mnemonicTip:mn||"",orderIndex:existing.length+added,addedAt:Date.now()});
-        existSet.add(en.toLowerCase());
-        added++;
-      }
-      setResult({added,skipped});
-      onDone();
-    }catch(e){showToast((lang==="en"?"Error: ":"Hata: ")+e.message);}
+ const doImport = async (text, isJson) => {
+  try {
+    let rows = [];
+
+    if (isJson) {
+      const arr = JSON.parse(text);
+
+      rows = arr.map(w => ({
+        wordSetId: set.id,
+        english: w.english || "",
+        turkish: w.turkish || "",
+        ydsExampleSentence: w.ydsExample || "",
+        ydsExampleTranslation: w.ydsTranslation || "",
+        mnemonicTip: w.mnemonic || "",
+        addedAt: Date.now()
+      }));
+    } else {
+      const lines = text.trim().split("\n");
+
+      const start =
+        lines[0].toLowerCase().startsWith("english") ? 1 : 0;
+
+      rows = lines.slice(start).map(l => {
+        const [en, tr, yds, ydsT, mn] =
+          l.split(",").map(c =>
+            c.trim().replace(/^"|"$/g, "")
+          );
+
+        return {
+          wordSetId: set.id,
+          english: en || "",
+          turkish: tr || "",
+          ydsExampleSentence: yds || "",
+          ydsExampleTranslation: ydsT || "",
+          mnemonicTip: mn || "",
+          addedAt: Date.now()
+        };
+      });
+    }
+
+    const validRows = rows.filter(
+      w => w.english && w.turkish
+    );
+
+    const { error } = await supabase
+      .from("words")
+      .insert(validRows);
+
+    if (error) throw error;
+
+    setResult({
+      added: validRows.length,
+      skipped: 0
+    });
+
+    onDone();
+
+  } catch (e) {
+    showToast(
+      (lang === "en" ? "Error: " : "Hata: ") + e.message
+    );
+  }
+};
+  catch(e){showToast((lang==="en"?"Error: ":"Hata: ")+e.message);}
   };
   const handleFile=e=>{
     const file=e.target.files[0];if(!file)return;
@@ -1881,34 +1946,6 @@ function ImportModal({lang,set,onClose,onDone,showToast}){
     reader.onload=ev=>doImport(ev.target.result,file.name.endsWith(".json"));
     reader.readAsText(file);
   };
-  // 1. Önce fonksiyonu asenkron (async) hale getiriyoruz ki veritabanına veri gönderirken bekleyebilsin
-const handleFile = async (e) => {
-  const file = e.target.files[0];
-  if (!file) return;
-
-  // ... (Senin dosyayı okuyan ve kelimeleri "yeniKelimeler" dizisine çeviren mevcut kodların burada duracak) ...
-  // Diyelim ki dosyanın içinden çıkan kelime listesi: yeniKelimeler dizisi olsun.
-
-  try {
-    // İŞTE SİHİRLİ SATIR BURASI:
-    // Supabase'deki 'words' tablosuna dosyadan okunan tüm kelimeleri tek seferde gönderiyoruz
-    const { data, error } = await supabase
-      .from('words')
-      .insert(yeniKelimeler); // Dosyadan çıkan toplu listeyi buraya veriyoruz
-
-    if (error) throw error; // Eğer bir hata varsa yakala
-
-    // Yükleme başarılı olduysa ekrana uyarı veriyoruz
-    alert("Harika! Dosyadaki tüm kelimeler başarıyla canlı veritabanına aktarıldı.");
-    
-    // Veritabanından güncel listeyi tekrar çekmek için fetchWords fonksiyonunu tetikleyebilirsin
-    // fetchWords(); 
-
-  } catch (err) {
-    console.error("Veritabanına toplu yükleme yapılırken hata oluştu:", err.message);
-    alert("Yükleme başarısız oldu: " + err.message);
-  }
-};
   return(
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal" onClick={e=>e.stopPropagation()}>
