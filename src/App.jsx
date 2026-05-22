@@ -1860,10 +1860,11 @@ function AddWordModal({lang,setId,orderIndex,onClose,onSaved,checkDuplicate}){
 
 function EditWordModal({lang,word,onClose,onSaved}){
   const [f,setF]=useState({english:word.english,turkish:word.turkish,ydsExampleSentence:word.ydsExampleSentence||"",ydsExampleTranslation:word.ydsExampleTranslation||"",mnemonicTip:word.mnemonicTip||""});
+  const save = async () => {
   await supabase
   .from("words")
   .update({...f})
-  .eq("id", word.id);
+  .eq("id", word.id);};
   return <Modal lang={lang} title={lang==="en"?"EDIT WORD":"KELİMEYİ DÜZENLE"} onClose={onClose} onConfirm={save} confirmLabel={lang==="en"?"Update":"Güncelle"}>
     <input className="mi" placeholder="English" value={f.english} onChange={e=>setF({...f,english:e.target.value})}/>
     <input className="mi" placeholder={lang==="en"?"Turkish":"Türkçe"} value={f.turkish} onChange={e=>setF({...f,turkish:e.target.value})}/>
