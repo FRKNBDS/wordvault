@@ -7,14 +7,34 @@ const GITHUB_DATA_URL = "https://raw.githubusercontent.com/FRKNBDS/wordvault/mai
 
 async function fetchWordData() {
   try {
-    const res = await fetch(GITHUB_DATA_URL + "?t=" + Date.now());
-    if (!res.ok) throw new Error("HTTP " + res.status);
-    const data = await res.json();
-    window.__WV_WORD_DATA__ = data;
-    console.log("✅ Kelime verisi GitHub'dan yüklendi");
-    return data;
+    const { data, error } = await supabase
+      .from('words')
+      .select('*');
+
+    if (error) throw error;
+
+    const formattedData = {};
+    if (data && data.length > 0) {
+      data.forEach(item => {
+        const setName = item.wordSetId || "VERB_SET_1";
+        if (!formattedData[setName]) {
+          formattedData[setName] = [];
+        }
+        formattedData[setName].push([
+          item.english || "",
+          item.turkish || "",
+          item.ydsExampleSentence || "",
+          item.ydsExampleTranslation || "",
+          item.mnemonicTip || ""
+        ]);
+      });
+      window.__WV_WORD_DATA__ = formattedData;
+      console.log("✅ Kelime verisi Supabase veritabanından başarıyla yüklendi");
+      return formattedData;
+    }
+    return window.__WV_WORD_DATA__ || null;
   } catch (e) {
-    console.warn("⚠️ GitHub'dan yüklenemedi, gömülü veri kullanılıyor:", e.message);
+    console.warn("⚠️ Veritabanından yüklenemedi, gömülü veri kullanılıyor:", e.message);
     return window.__WV_WORD_DATA__ || null;
   }
 }
