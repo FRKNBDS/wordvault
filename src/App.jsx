@@ -547,7 +547,7 @@ export default function App() {
           dGet("users", parseInt(saved)).then(u => { if (u) setUser(u); });
        }
       });
-     },
+     };
   }, []);
 
   const loadAllUsers = useCallback(() => {
