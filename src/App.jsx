@@ -1881,6 +1881,34 @@ function ImportModal({lang,set,onClose,onDone,showToast}){
     reader.onload=ev=>doImport(ev.target.result,file.name.endsWith(".json"));
     reader.readAsText(file);
   };
+  // 1. Önce fonksiyonu asenkron (async) hale getiriyoruz ki veritabanına veri gönderirken bekleyebilsin
+const handleFile = async (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+
+  // ... (Senin dosyayı okuyan ve kelimeleri "yeniKelimeler" dizisine çeviren mevcut kodların burada duracak) ...
+  // Diyelim ki dosyanın içinden çıkan kelime listesi: yeniKelimeler dizisi olsun.
+
+  try {
+    // İŞTE SİHİRLİ SATIR BURASI:
+    // Supabase'deki 'words' tablosuna dosyadan okunan tüm kelimeleri tek seferde gönderiyoruz
+    const { data, error } = await supabase
+      .from('words')
+      .insert(yeniKelimeler); // Dosyadan çıkan toplu listeyi buraya veriyoruz
+
+    if (error) throw error; // Eğer bir hata varsa yakala
+
+    // Yükleme başarılı olduysa ekrana uyarı veriyoruz
+    alert("Harika! Dosyadaki tüm kelimeler başarıyla canlı veritabanına aktarıldı.");
+    
+    // Veritabanından güncel listeyi tekrar çekmek için fetchWords fonksiyonunu tetikleyebilirsin
+    // fetchWords(); 
+
+  } catch (err) {
+    console.error("Veritabanına toplu yükleme yapılırken hata oluştu:", err.message);
+    alert("Yükleme başarısız oldu: " + err.message);
+  }
+};
   return(
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal" onClick={e=>e.stopPropagation()}>
