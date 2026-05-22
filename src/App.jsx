@@ -1,3 +1,4 @@
+import { supabase } from './supabaseClient';
 import { useState, useEffect, useCallback, useRef } from "react";
 
 // ── WORD DATA — GitHub'dan çekilir, fallback olarak gömülü veri kullanılır ───
@@ -538,18 +539,28 @@ export default function App() {
   const toastRef = useRef(null);
 
 useEffect(() => {
-  const initializeApp = async () => {
-    const wordData = await fetchWordData();
-    await initDB(wordData);
-    setReady(true);
-    const saved = localStorage.getItem("wv_uid");
-    if (saved) {
-      dGet("users", parseInt(saved)).then((u) => {
-        if (u) setUser(u);
-      });
+  const fetchWords = async () => {
+    try {
+      setLoading(true);
+      // Supabase 'words' tablosundaki tüm verileri çekiyoruz
+      const { data, error } = await supabase
+        .from('words')
+        .select('*')
+        .order('id', { ascending: true }); // ID sırasına göre diz
+
+      if (error) throw error;
+
+      if (data) {
+        setWords(data);
+      }
+    } catch (error) {
+      console.error('Veritabanından kelimeler çekilemedi:', error.message);
+    } finally {
+      setLoading(false);
     }
   };
-  initializeApp();
+
+  fetchWords();
 }, []);
 
   const loadAllUsers = useCallback(() => {
