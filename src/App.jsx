@@ -12,6 +12,7 @@ import {
   adminDeleteWord,
 } from './adminApi';
 import { useState, useEffect, useCallback, useRef } from "react";
+import { Analytics } from '@vercel/analytics/react';
 
 // ── WORD DATA — GitHub'dan çekilir, fallback olarak gömülü veri kullanılır ───
 // GITHUB_RAW_URL: Bu satırı repo oluşturduktan sonra güncelleyin
@@ -756,6 +757,7 @@ export default function App() {
       )}
 
       {toast && <div className="toast">{toast}</div>}
+      <Analytics />
     </div>
   );
 }
