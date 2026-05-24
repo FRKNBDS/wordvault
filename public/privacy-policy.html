@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gizlilik Politikası — WordVault</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Cinzel:wght@400;600&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #0d0f1a;
+      --surface:  #141728;
+      --border:   rgba(212,175,55,0.2);
+      --gold:     #D4AF37;
+      --gold-dim: #a88a22;
+      --text:     #e8e0d0;
+      --muted:    #8a8070;
+      --radius:   14px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Crimson Pro', Georgia, serif;
+      font-size: 18px;
+      line-height: 1.75;
+      min-height: 100vh;
+      padding: 48px 20px 80px;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    /* ── Header ── */
+    .header {
+      text-align: center;
+      margin-bottom: 48px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .app-name {
+      font-family: 'Cinzel', serif;
+      font-size: 13px;
+      letter-spacing: 4px;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .page-title {
+      font-family: 'Cinzel', serif;
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 16px;
+      letter-spacing: 1px;
+    }
+
+    .meta {
+      font-size: 14px;
+      color: var(--muted);
+      letter-spacing: 0.5px;
+    }
+
+    .meta a {
+      color: var(--gold-dim);
+      text-decoration: none;
+    }
+
+    /* ── Lang switcher ── */
+    .lang-switch {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 40px;
+    }
+
+    .lang-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-family: 'Cinzel', serif;
+      font-size: 12px;
+      letter-spacing: 2px;
+      padding: 8px 20px;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .lang-btn.active,
+    .lang-btn:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    /* ── Sections ── */
+    .section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      margin-bottom: 16px;
+    }
+
+    .section-title {
+      font-family: 'Cinzel', serif;
+      font-size: 14px;
+      letter-spacing: 2px;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .section p {
+      color: var(--text);
+      margin-bottom: 10px;
+    }
+
+    .section p:last-child { margin-bottom: 0; }
+
+    strong {
+      color: #fff;
+      font-weight: 600;
+    }
+
+    /* ── Highlight box ── */
+    .highlight {
+      background: rgba(212,175,55,0.07);
+      border-left: 3px solid var(--gold);
+      border-radius: 6px;
+      padding: 14px 18px;
+      margin: 14px 0;
+      font-size: 16px;
+      color: var(--text);
+    }
+
+    /* ── Footer ── */
+    .footer {
+      text-align: center;
+      margin-top: 48px;
+      font-size: 13px;
+      color: var(--muted);
+      letter-spacing: 0.5px;
+    }
+
+    .footer a {
+      color: var(--gold-dim);
+      text-decoration: none;
+    }
+
+    /* ── Lang content ── */
+    .lang-content { display: none; }
+    .lang-content.visible { display: block; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <div class="app-name">WordVault</div>
+      <h1 class="page-title">Gizlilik Politikası<br><span style="font-size:20px;color:var(--muted)">Privacy Policy</span></h1>
+      <div class="meta">
+        VaultApps &nbsp;·&nbsp;
+        <a href="mailto:contact.vaultapps@gmail.com">contact.vaultapps@gmail.com</a>
+        &nbsp;·&nbsp; Son güncelleme: 24 Mayıs 2025
+      </div>
+    </div>
+
+    <div class="lang-switch">
+      <button class="lang-btn active" onclick="switchLang('tr', this)">🇹🇷 Türkçe</button>
+      <button class="lang-btn" onclick="switchLang('en', this)">🇬🇧 English</button>
+    </div>
+
+    <!-- ── TÜRKÇE ── -->
+    <div class="lang-content visible" id="lang-tr">
+
+      <div class="section">
+        <div class="section-title">Genel Bakış</div>
+        <p>Bu gizlilik politikası, <strong>WordVault</strong> uygulamasının kullanıcı verilerini nasıl işlediğini açıklamaktadır.</p>
+        <div class="highlight">
+          WordVault, kişisel verilerinizi <strong>toplamaz</strong>, sunucularda <strong>saklamaz</strong> ve üçüncü taraflarla <strong>paylaşmaz</strong>.
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Cihazınızda Saklanan Veriler</div>
+        <p>Uygulama içinde oluşturduğunuz kullanıcı adı ve şifre yalnızca <strong>cihazınızda yerel olarak</strong> (IndexedDB) saklanır. Bu veriler hiçbir sunucuya iletilmez.</p>
+        <p>Çalışma ilerlemeniz, aktif kelime setleriniz ve dil tercihiniz de yalnızca cihazınızda tutulur.</p>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Kelime İçeriği</div>
+        <p>Uygulama, kelime ve örnek cümle içeriklerini yalnızca <strong>okuma amaçlı</strong> olarak harici bir sunucudan çeker. Bu işlem sırasında kullanıcıya ait hiçbir kişisel veri iletilmez.</p>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Üçüncü Taraf Hizmetler</div>
+        <p>WordVault herhangi bir <strong>reklam ağı</strong>, <strong>analitik araç</strong> veya <strong>kullanıcı takip sistemi</strong> kullanmaz.</p>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Çocukların Gizliliği</div>
+        <p>Uygulama her yaşa uygundur. Çocuklara ait hiçbir kişisel veri toplanmaz veya saklanmaz.</p>
+      </div>
+
+      <div class="section">
+        <div class="section-title">İletişim</div>
+        <p>Gizlilik politikasına ilişkin sorularınız için bizimle iletişime geçebilirsiniz:</p>
+        <p><a href="mailto:contact.vaultapps@gmail.com" style="color:var(--gold)">contact.vaultapps@gmail.com</a></p>
+      </div>
+
+    </div>
+
+    <!-- ── ENGLISH ── -->
+    <div class="lang-content" id="lang-en">
+
+      <div class="section">
+        <div class="section-title">Overview</div>
+        <p>This privacy policy explains how <strong>WordVault</strong> handles user data.</p>
+        <div class="highlight">
+          WordVault does <strong>not collect</strong>, <strong>store on servers</strong>, or <strong>share</strong> any personal data with third parties.
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Data Stored on Your Device</div>
+        <p>Any username and password you create are stored <strong>locally on your device only</strong> (IndexedDB) and are never transmitted to any server.</p>
+        <p>Your study progress, active word sets, and language preference are also stored only on your device.</p>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Word Content</div>
+        <p>The app retrieves word and example sentence content from an external server for <strong>read-only</strong> purposes. No personal user data is transmitted during this process.</p>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Third-Party Services</div>
+        <p>WordVault does <strong>not</strong> use any <strong>advertising networks</strong>, <strong>analytics tools</strong>, or <strong>user tracking systems</strong>.</p>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Children's Privacy</div>
+        <p>This app is suitable for all ages. No personal data from children is collected or stored.</p>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Contact</div>
+        <p>For any questions regarding this privacy policy, please contact us:</p>
+        <p><a href="mailto:contact.vaultapps@gmail.com" style="color:var(--gold)">contact.vaultapps@gmail.com</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      © 2025 VaultApps &nbsp;·&nbsp; <a href="https://wordvault-eta.vercel.app">wordvault-eta.vercel.app</a>
+    </div>
+
+  </div>
+
+  <script>
+    function switchLang(lang, btn) {
+      document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('visible'));
+      document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+      document.getElementById('lang-' + lang).classList.add('visible');
+      btn.classList.add('active');
+    }
+  </script>
+</body>
+</html>
