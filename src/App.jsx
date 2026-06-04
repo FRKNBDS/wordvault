@@ -287,8 +287,8 @@ async function deactivateSet(userId, wordSetId) {
 // ── UTILITIES ─────────────────────────────────────────────────────────────────
 const TODAY = () => new Date().toISOString().slice(0,10);
 // Gün kısıtlaması yok — tamamen zamana dayalı
-const SESSION_LABELS_TR = {DAILY_STUDY:"Günlük",WEEKLY_REVIEW:"Haftalık Sınav",MONTHLY_REVIEW:"Aylık Tekrar",PRACTICE:"Pratik"};
-const SESSION_LABELS_EN = {DAILY_STUDY:"Daily",WEEKLY_REVIEW:"Weekly Exam",MONTHLY_REVIEW:"Monthly Review",PRACTICE:"Practice"};
+const SESSION_LABELS_TR = {DAILY_STUDY:"Günlük",WEEKLY_REVIEW:"Haftalık Tekrar",MONTHLY_REVIEW:"Aylık Tekrar",PRACTICE:"Pratik"};
+const SESSION_LABELS_EN = {DAILY_STUDY:"Daily",WEEKLY_REVIEW:"Weekly Review",MONTHLY_REVIEW:"Monthly Review",PRACTICE:"Practice"};
 const SESSION_COLORS = {DAILY_STUDY:"#D4AF37",WEEKLY_REVIEW:"#4A90D9",MONTHLY_REVIEW:"#9B59B6",PRACTICE:"#50C878"};
 const BOX_COLORS = {DAILY:"#4a90d9",WEEKLY:"#7b68ee",MONTHLY:"#4caf50"};
 
@@ -931,7 +931,7 @@ function HomeScreen({ user, lang, onStartStudy, onBoxView, onSwitchUser, showToa
           <div className="tab-title">{lang==="en"?"WORD BOXES":"KELİME KUTULARI"}</div>
           <div className="boxes-row" style={{marginTop:6}}>
             <div className="box-card" onClick={()=>onBoxView("DAILY")} style={{position:"relative"}}>
-              <div className="box-emoji">📅</div>
+              <div className="box-emoji">🕢</div>
               <div className="box-count" style={{color:"#4a90d9"}}>{counts.daily||0}</div>
               <div className="box-label">{lang==="en"?"Daily":"Günlük"}</div>
               {(counts.dailyReady||0)>0 && <div style={{position:"absolute",top:6,right:6,width:8,height:8,borderRadius:"50%",background:"#4a90d9"}}/> }
@@ -979,10 +979,10 @@ function HomeScreen({ user, lang, onStartStudy, onBoxView, onSwitchUser, showToa
           )}
         </div>
 
-        {/* Haftalık sınav — sadece 7+ gün bekleyen varsa */}
+        {/* Haftalık tekrar — sadece 7+ gün bekleyen varsa */}
         {counts.weekly>0 && (
           <div className="study-card" style={{borderColor:"rgba(74,144,217,0.3)"}}>
-            <div className="sc-title" style={{color:"#7ab8f5"}}>{lang==="en"?"Weekly Exam 🎓":"Haftalık Sınav 🎓"}</div>
+            <div className="sc-title" style={{color:"#7ab8f5"}}>{lang==="en"?"Weekly Review 🎓":"Haftalık Tekrar 🎓"}</div>
             <div className="sc-sub">
               {weeklyCanStudy
                 ? (lang==="en"?`${weeklyReady} words ready. (${counts.weekly} total in weekly)`:`${weeklyReady} kelime hazır. (toplam ${counts.weekly} haftalıkta)`)
@@ -1038,8 +1038,8 @@ function HomeScreen({ user, lang, onStartStudy, onBoxView, onSwitchUser, showToa
 function BoxDetailScreen({ user, box, lang, onBack }) {
   const [items, setItems] = useState([]);
   const boxLabels = lang==="en"
-    ? {DAILY:"📅 Daily Box",WEEKLY:"📆 Weekly Box",MONTHLY:"🗓 Monthly Box"}
-    : {DAILY:"📅 Günlük Kutu",WEEKLY:"📆 Haftalık Kutu",MONTHLY:"🗓 Aylık Kutu"};
+    ? {DAILY:"🕢 Daily Box",WEEKLY:"📆 Weekly Box",MONTHLY:"🗓 Monthly Box"}
+    : {DAILY:"🕢 Günlük Kutu",WEEKLY:"📆 Haftalık Kutu",MONTHLY:"🗓 Aylık Kutu"};
   const boxColors = BOX_COLORS;
 
   const [progMap, setProgMap] = useState({});
@@ -1390,12 +1390,12 @@ function StudyScreen({ user, session, lang, onDone, onBack, showToast }) {
         else           updated = {...updated, box:"DAILY",   correctCount:cc, wrongCount:wc};
       }
       if (type==="WEEKLY_REVIEW") {
-        // Doğru → Aylık. Yanlış → Haftalık'ta kalır, timer sıfırlanır (yarın tekrar dene)
+        // Doğru → . Yanlış → Haftalık'ta kalır, timer sıfırlanır (yarın tekrar dene)
         if (isCorrect) updated = {...updated, box:"MONTHLY", correctCount:cc, wrongCount:wc, movedToMonthlyAt:Date.now()};
         else           updated = {...updated, box:"WEEKLY",  correctCount:cc, wrongCount:wc, movedToWeeklyAt:Date.now()};
       }
       if (type==="MONTHLY_REVIEW") {
-        // Doğru → Aylık'ta kalır, timer yenilenir (30 gün sonra tekrar). Yanlış → Haftalıka geri.
+        // Doğru → 'ta kalır, timer yenilenir (30 gün sonra tekrar). Yanlış → Haftalıka geri.
         if (isCorrect) updated = {...updated, box:"MONTHLY", correctCount:cc, wrongCount:wc, movedToMonthlyAt:Date.now()};
         else           updated = {...updated, box:"WEEKLY",  correctCount:cc, wrongCount:wc, movedToWeeklyAt:Date.now()};
       }
@@ -1529,7 +1529,7 @@ function StatsScreen({ user, lang }) {
           <div style={{fontSize:stats.streak>0?50:38}}>{stats.streak>0?"🔥":"💤"}</div>
         </div>
         <div className="boxes-row">
-          {[[`📅`,lang==="en"?"Daily":"Günlük",stats.daily,"#4a90d9"],[`📆`,lang==="en"?"Weekly":"Haftalık",stats.weekly,"#7b68ee"],[`🗓`,lang==="en"?"Monthly":"Aylık",stats.monthly,"#4caf50"]].map(([em,lb,ct,cl])=>(
+          {[[`🕢`,lang==="en"?"Daily":"Günlük",stats.daily,"#4a90d9"],[`📆`,lang==="en"?"Weekly":"Haftalık",stats.weekly,"#7b68ee"],[`🗓`,lang==="en"?"Monthly":"",stats.monthly,"#4caf50"]].map(([em,lb,ct,cl])=>(
             <div key={lb} className="box-card">
               <div className="box-emoji">{em}</div>
               <div className="box-count" style={{color:cl}}>{ct}</div>
@@ -1560,7 +1560,7 @@ function StatsScreen({ user, lang }) {
           <div style={{fontSize:10,color:"var(--g2)",fontFamily:"var(--fd)",letterSpacing:2}}>{lang==="en"?"RECENT SESSIONS":"SON OTURUMLAR"}</div>
           {stats.sessions.map((s,i)=>(
             <div key={i} className="sess-row">
-              <div style={{flex:1,fontSize:12,color:"var(--w7)"}}>{lang==="en"?{"DAILY_STUDY":"📅 Daily","WEEKLY_REVIEW":"📆 Weekly Exam","MONTHLY_REVIEW":"🗓 Monthly Review","PRACTICE":"🎲 Practice"}[s.sessionType]||s.sessionType:{"DAILY_STUDY":"📅 Günlük","WEEKLY_REVIEW":"📆 Haftalık Sınav","MONTHLY_REVIEW":"🗓 Aylık Tekrar","PRACTICE":"🎲 Pratik"}[s.sessionType]||s.sessionType}</div>
+              <div style={{flex:1,fontSize:12,color:"var(--w7)"}}>{lang==="en"?{"DAILY_STUDY":"🕢 Daily","WEEKLY_REVIEW":"📆 Weekly Review","MONTHLY_REVIEW":"🗓 Monthly Review","PRACTICE":"🎲 Practice"}[s.sessionType]||s.sessionType:{"DAILY_STUDY":"🕢 Günlük","WEEKLY_REVIEW":"📆 Haftalık Tekrar","MONTHLY_REVIEW":"🗓 Aylık Tekrar","PRACTICE":"🎲 Pratik"}[s.sessionType]||s.sessionType}</div>
               <div style={{textAlign:"right"}}>
                 <div style={{fontFamily:"var(--fd)",fontSize:12,color:"var(--g2)"}}>{s.correct}/{s.total}</div>
                 <div style={{fontSize:10,color:"var(--w4)"}}>{s.date}</div>
