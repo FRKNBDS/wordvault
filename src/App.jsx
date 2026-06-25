@@ -1702,7 +1702,7 @@ function StudyScreen({ user, session, lang, onDone, onBack, showToast }) {
 
     if (index >= total - 1) {
       if (!isPractice) {
-        await dAdd("sessions",{userId:user.id,sessionType:type,date:TODAY(),total,correct:newCorrect,wrong:newWrong,duration:Math.round((Date.now()-startTime.current)/1000),completedAt:Date.now()});
+        await dAdd("sessions",{userId:user.id,sessionType:type,date:TODAY(),total,correct:newCorrect,wrong:newWrong,duration:Math.round((Date.now()-startTime.current)/10000),completedAt:Date.now()});
       }
       setCorrect(newCorrect);
       setWrong(newWrong);
