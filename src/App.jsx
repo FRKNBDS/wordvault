@@ -832,7 +832,6 @@ function PrivacyConsentScreen({ lang, onAccept }) {
               <p><b>Local data:</b> Your account, learning progress, and study sessions are stored only on your device (in your browser's local storage), not on our servers.</p>
               <p><b>Content data:</b> Word sets and example sentences are fetched from our servers and cached on your device so the app also works offline.</p>
               <p><b>No third-party sharing:</b> We do not sell or share your personal data with third parties.</p>
-              <p><b>For more:</b> https://wordvault-eta.vercel.app/privacy-policy.html</p>
               <p>By tapping "I Accept", you confirm that you have read and agree to this privacy policy.</p>
             </>
           ) : (
@@ -841,7 +840,6 @@ function PrivacyConsentScreen({ lang, onAccept }) {
               <p><b>Yerel veriler:</b> Hesabınız, öğrenme ilerlemeniz ve çalışma oturumlarınız sadece kendi cihazınızdaa (tarayıcının yerel hafızasında) saklanır, sunucularımıza gönderilmez.</p>
               <p><b>İçerik verileri:</b> Kelime setleri ve örnek cümleler sunucularımızdan çekilir ve cihazınızda saklanır; böylece uygulama internetsiz de çalışır.</p>
               <p><b>Üçüncü taraflarla paylaşım yok:</b> Kişisel verilerinizi üçüncü taraflarla satmıyor veya paylaşmıyoruz.</p>
-              <p><b>Daha fazlası için:</b> https://wordvault-eta.vercel.app/privacy-policy.html</p>
               <p>"Kabul Ediyorum" butonuna basarak bu gizlilik politikasını okuduğunuzu ve kabul ettiğinizi onaylarsınız.</p>
             </>
           )}
